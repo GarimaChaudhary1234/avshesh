@@ -1,0 +1,482 @@
+{
+  "role.COMMISSIONER": [
+    "Commissioner",
+    "आयुक्त",
+    "କମିଶନର"
+  ],
+  "role.WARD_OFFICER": [
+    "Ward Officer",
+    "वार्ड अधिकारी",
+    "ୱାର୍ଡ ଅଧିକାରୀ"
+  ],
+  "city.headerCommissioner": [
+    "{{name}} · Commissioner (whole city)",
+    "{{name}} · आयुक्त (पूरा शहर)",
+    "{{name}} · କମିଶନର (ସମଗ୍ର ସହର)"
+  ],
+  "city.headerOfficer": [
+    "{{name}} · Ward Officer · {{ward}}",
+    "{{name}} · वार्ड अधिकारी · {{ward}}",
+    "{{name}} · ୱାର୍ଡ ଅଧିକାରୀ · {{ward}}"
+  ],
+  "nav.wards": [
+    "Wards",
+    "वार्ड",
+    "ୱାର୍ଡ"
+  ],
+  "nav.officers": [
+    "Officers",
+    "अधिकारी",
+    "ଅଧିକାରୀ"
+  ],
+  "city.hierarchy": [
+    "How the municipal side works: the Commissioner sees the whole city and manages the ward officers. Each ward officer runs one ward and assigns pickups to the ward's collection workers. The workers log in on their phone to see their pickups and mark them collected.",
+    "नगर निगम की व्यवस्था: आयुक्त पूरा शहर देखते हैं और वार्ड अधिकारियों को संभालते हैं। हर वार्ड अधिकारी एक वार्ड चलाता है और वार्ड के संग्रह कर्मचारियों को पिकअप सौंपता है। कर्मचारी अपने फ़ोन पर लॉगिन करके अपने पिकअप देखते हैं और उठा लिया चिह्नित करते हैं।",
+    "ମ୍ୟୁନିସିପାଲ ବ୍ୟବସ୍ଥା: କମିଶନର ସମଗ୍ର ସହର ଦେଖନ୍ତି ଏବଂ ୱାର୍ଡ ଅଧିକାରୀଙ୍କୁ ପରିଚାଳନା କରନ୍ତି। ପ୍ରତ୍ୟେକ ୱାର୍ଡ ଅଧିକାରୀ ଗୋଟିଏ ୱାର୍ଡ ଚଳାନ୍ତି ଏବଂ ୱାର୍ଡର ସଂଗ୍ରହ କର୍ମଚାରୀଙ୍କୁ ପିକଅପ୍ ଦିଅନ୍ତି। କର୍ମଚାରୀମାନେ ନିଜ ଫୋନ୍‌ରେ ଲଗଇନ୍ କରି ନିଜ ପିକଅପ୍ ଦେଖନ୍ତି ଏବଂ ସଂଗୃହୀତ ବୋଲି ଚିହ୍ନଟ କରନ୍ତି।"
+  ],
+  "city.overview.title": [
+    "City overview",
+    "शहर का सारांश",
+    "ସହରର ସାରାଂଶ"
+  ],
+  "city.overview.wards": [
+    "Wards",
+    "वार्ड",
+    "ୱାର୍ଡ"
+  ],
+  "city.overview.withOfficer": [
+    "Wards with an officer",
+    "अधिकारी वाले वार्ड",
+    "ଅଧିକାରୀ ଥିବା ୱାର୍ଡ"
+  ],
+  "city.overview.households": [
+    "Households on Avshesh",
+    "अवशेष पर घर",
+    "ଅବଶେଷରେ ଘର"
+  ],
+  "city.overview.officialHouseholds": [
+    "Households in the wards (official)",
+    "वार्डों में घर (आधिकारिक)",
+    "ୱାର୍ଡରେ ଘର (ସରକାରୀ)"
+  ],
+  "city.overview.population": [
+    "Population",
+    "जनसंख्या",
+    "ଜନସଂଖ୍ୟା"
+  ],
+  "city.overview.dealers": [
+    "Dealers and compost centers",
+    "डीलर और कंपोस्ट केंद्र",
+    "ଡିଲର୍ ଓ କମ୍ପୋଷ୍ଟ କେନ୍ଦ୍ର"
+  ],
+  "city.overview.openRequests": [
+    "Requests waiting",
+    "प्रतीक्षारत अनुरोध",
+    "ଅପେକ୍ଷାରେ ଅନୁରୋଧ"
+  ],
+  "city.overview.openDisputes": [
+    "Payment disputes",
+    "भुगतान विवाद",
+    "ପେମେଣ୍ଟ ବିବାଦ"
+  ],
+  "city.overview.attention": [
+    "Wards that need attention",
+    "जिन वार्डों पर ध्यान चाहिए",
+    "ଯେଉଁ ୱାର୍ଡକୁ ଧ୍ୟାନ ଦରକାର"
+  ],
+  "city.overview.allGood": [
+    "No ward needs attention right now.",
+    "अभी किसी वार्ड पर ध्यान की ज़रूरत नहीं।",
+    "ବର୍ତ୍ତମାନ କୌଣସି ୱାର୍ଡକୁ ଧ୍ୟାନ ଦରକାର ନାହିଁ।"
+  ],
+  "city.overview.seeAll": [
+    "See all wards",
+    "सभी वार्ड देखें",
+    "ସମସ୍ତ ୱାର୍ଡ ଦେଖନ୍ତୁ"
+  ],
+  "city.overview.recent": [
+    "Recent activity in the city",
+    "शहर में हाल की गतिविधि",
+    "ସହରରେ ସାମ୍ପ୍ରତିକ କାର୍ଯ୍ୟକଳାପ"
+  ],
+  "city.wards.title": [
+    "All wards",
+    "सभी वार्ड",
+    "ସମସ୍ତ ୱାର୍ଡ"
+  ],
+  "city.wards.search": [
+    "Search a ward or an officer",
+    "वार्ड या अधिकारी खोजें",
+    "ୱାର୍ଡ କିମ୍ବା ଅଧିକାରୀ ଖୋଜନ୍ତୁ"
+  ],
+  "city.wards.sort": [
+    "Sort by",
+    "क्रमबद्ध करें",
+    "କ୍ରମ ଅନୁସାରେ"
+  ],
+  "city.wards.sortNumber": [
+    "Ward number",
+    "वार्ड संख्या",
+    "ୱାର୍ଡ ସଂଖ୍ୟା"
+  ],
+  "city.wards.sortRequests": [
+    "Most waiting requests",
+    "सबसे ज़्यादा प्रतीक्षारत अनुरोध",
+    "ସର୍ବାଧିକ ଅପେକ୍ଷାରେ ଅନୁରୋଧ"
+  ],
+  "city.wards.sortHouseholds": [
+    "Most households on Avshesh",
+    "अवशेष पर सबसे ज़्यादा घर",
+    "ଅବଶେଷରେ ସର୍ବାଧିକ ଘର"
+  ],
+  "city.wards.onlyAttention": [
+    "Only wards that need attention",
+    "केवल ध्यान चाहने वाले वार्ड",
+    "କେବଳ ଧ୍ୟାନ ଦରକାର ଥିବା ୱାର୍ଡ"
+  ],
+  "city.wards.none": [
+    "No ward matches.",
+    "कोई वार्ड मेल नहीं खाता।",
+    "କୌଣସି ୱାର୍ଡ ମେଳ ଖାଉନାହିଁ।"
+  ],
+  "city.wards.noOfficer": [
+    "No officer assigned",
+    "कोई अधिकारी नियुक्त नहीं",
+    "କୌଣସି ଅଧିକାରୀ ନିଯୁକ୍ତ ନାହିଁ"
+  ],
+  "city.wards.officer": [
+    "Officer: {{names}}",
+    "अधिकारी: {{names}}",
+    "ଅଧିକାରୀ: {{names}}"
+  ],
+  "city.wards.line1": [
+    "{{registered}} households on Avshesh of {{official}}",
+    "{{official}} में से {{registered}} घर अवशेष पर",
+    "{{official}} ମଧ୍ୟରୁ {{registered}} ଘର ଅବଶେଷରେ"
+  ],
+  "city.wards.line2": [
+    "{{dealers}} dealers · {{requests}} requests waiting · {{disputes}} disputes",
+    "{{dealers}} डीलर · {{requests}} अनुरोध प्रतीक्षा में · {{disputes}} विवाद",
+    "{{dealers}} ଡିଲର୍ · {{requests}} ଅନୁରୋଧ ଅପେକ୍ଷାରେ · {{disputes}} ବିବାଦ"
+  ],
+  "city.wards.lastAction": [
+    "Last officer action: {{when}}",
+    "अधिकारी की आखिरी कार्रवाई: {{when}}",
+    "ଅଧିକାରୀଙ୍କ ଶେଷ କାର୍ଯ୍ୟ: {{when}}"
+  ],
+  "city.wards.noAction": [
+    "No officer action yet",
+    "अभी तक अधिकारी की कोई कार्रवाई नहीं",
+    "ଏପର୍ଯ୍ୟନ୍ତ ଅଧିକାରୀଙ୍କ କୌଣସି କାର୍ଯ୍ୟ ନାହିଁ"
+  ],
+  "city.ward.back": [
+    "All wards",
+    "सभी वार्ड",
+    "ସମସ୍ତ ୱାର୍ଡ"
+  ],
+  "city.ward.population": [
+    "Population {{population}} · {{households}} households (official)",
+    "जनसंख्या {{population}} · {{households}} घर (आधिकारिक)",
+    "ଜନସଂଖ୍ୟା {{population}} · {{households}} ଘର (ସରକାରୀ)"
+  ],
+  "city.ward.stats": [
+    "This ward in numbers",
+    "इस वार्ड के आँकड़े",
+    "ଏହି ୱାର୍ଡର ସଂଖ୍ୟା"
+  ],
+  "city.ward.registered": [
+    "Households on Avshesh",
+    "अवशेष पर घर",
+    "ଅବଶେଷରେ ଘର"
+  ],
+  "city.ward.verifiedDealers": [
+    "Verified dealers",
+    "सत्यापित डीलर",
+    "ଯାଞ୍ଚ ହୋଇଥିବା ଡିଲର୍"
+  ],
+  "city.ward.pendingDealers": [
+    "Dealers waiting for approval",
+    "अनुमोदन की प्रतीक्षा में डीलर",
+    "ଅନୁମୋଦନ ଅପେକ୍ଷାରେ ଡିଲର୍"
+  ],
+  "city.ward.requests": [
+    "Requests waiting",
+    "प्रतीक्षारत अनुरोध",
+    "ଅପେକ୍ଷାରେ ଅନୁରୋଧ"
+  ],
+  "city.ward.disputes": [
+    "Payment disputes",
+    "भुगतान विवाद",
+    "ପେମେଣ୍ଟ ବିବାଦ"
+  ],
+  "city.ward.kept": [
+    "Kept out of the dump",
+    "डंप से बचा",
+    "ଡମ୍ପରୁ ବଞ୍ଚିଲା"
+  ],
+  "city.ward.diverted": [
+    "Waste diverted",
+    "मोड़ा गया कचरा",
+    "ବଦଳାଯାଇଥିବା ଅଳିଆ"
+  ],
+  "city.ward.pickups": [
+    "Pickups done",
+    "पूरे हुए पिकअप",
+    "ସମ୍ପୂର୍ଣ୍ଣ ପିକଅପ୍"
+  ],
+  "city.ward.officers": [
+    "Ward officers",
+    "वार्ड अधिकारी",
+    "ୱାର୍ଡ ଅଧିକାରୀ"
+  ],
+  "city.ward.noOfficers": [
+    "No officer runs this ward yet. Add one below.",
+    "इस वार्ड को अभी कोई अधिकारी नहीं चला रहा। नीचे एक जोड़ें।",
+    "ଏହି ୱାର୍ଡ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଅଧିକାରୀ ଚଳାଉନାହାଁନ୍ତି। ତଳେ ଜଣେ ଯୋଗ କରନ୍ତୁ।"
+  ],
+  "city.ward.staff": [
+    "Collection staff of this ward",
+    "इस वार्ड के संग्रह कर्मचारी",
+    "ଏହି ୱାର୍ଡର ସଂଗ୍ରହ କର୍ମଚାରୀ"
+  ],
+  "city.ward.noStaff": [
+    "No collection staff added by the ward officer yet.",
+    "वार्ड अधिकारी ने अभी कोई संग्रह कर्मचारी नहीं जोड़ा।",
+    "ୱାର୍ଡ ଅଧିକାରୀ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ସଂଗ୍ରହ କର୍ମଚାରୀ ଯୋଗ କରିନାହାଁନ୍ତି।"
+  ],
+  "city.ward.dealers": [
+    "Dealers and compost centers in this ward",
+    "इस वार्ड के डीलर और कंपोस्ट केंद्र",
+    "ଏହି ୱାର୍ଡର ଡିଲର୍ ଓ କମ୍ପୋଷ୍ଟ କେନ୍ଦ୍ର"
+  ],
+  "city.ward.noDealers": [
+    "No dealer is located in this ward.",
+    "इस वार्ड में कोई डीलर नहीं है।",
+    "ଏହି ୱାର୍ଡରେ କୌଣସି ଡିଲର୍ ନାହାଁନ୍ତି।"
+  ],
+  "city.ward.activity": [
+    "What the officers did here",
+    "अधिकारियों ने यहाँ क्या किया",
+    "ଅଧିକାରୀମାନେ ଏଠାରେ କ’ଣ କଲେ"
+  ],
+  "city.ward.staffInactive": [
+    "inactive",
+    "निष्क्रिय",
+    "ନିଷ୍କ୍ରିୟ"
+  ],
+  "city.officers.title": [
+    "Ward officers",
+    "वार्ड अधिकारी",
+    "ୱାର୍ଡ ଅଧିକାରୀ"
+  ],
+  "city.officers.intro": [
+    "You create the ward officers, give each one a ward, move them between wards and switch them off when they leave. They see and change only their own ward.",
+    "आप वार्ड अधिकारी बनाते हैं, हर एक को वार्ड देते हैं, उन्हें वार्डों के बीच बदलते हैं और जाने पर बंद कर देते हैं। वे केवल अपना वार्ड देख और बदल सकते हैं।",
+    "ଆପଣ ୱାର୍ଡ ଅଧିକାରୀ ସୃଷ୍ଟି କରନ୍ତି, ପ୍ରତ୍ୟେକଙ୍କୁ ଗୋଟିଏ ୱାର୍ଡ ଦିଅନ୍ତି, ସେମାନଙ୍କୁ ୱାର୍ଡ ମଧ୍ୟରେ ବଦଳାନ୍ତି ଏବଂ ଚାଲିଗଲେ ବନ୍ଦ କରନ୍ତି। ସେମାନେ କେବଳ ନିଜ ୱାର୍ଡ ଦେଖିପାରିବେ ଓ ବଦଳାଇପାରିବେ।"
+  ],
+  "city.officers.none": [
+    "No ward officer yet.",
+    "अभी कोई वार्ड अधिकारी नहीं।",
+    "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ୱାର୍ଡ ଅଧିକାରୀ ନାହାଁନ୍ତି।"
+  ],
+  "city.officers.add": [
+    "Add a ward officer",
+    "वार्ड अधिकारी जोड़ें",
+    "ୱାର୍ଡ ଅଧିକାରୀ ଯୋଗ କରନ୍ତୁ"
+  ],
+  "city.officers.addButton": [
+    "Create officer",
+    "अधिकारी बनाएँ",
+    "ଅଧିକାରୀ ସୃଷ୍ଟି କରନ୍ତୁ"
+  ],
+  "city.officers.name": [
+    "Officer name",
+    "अधिकारी का नाम",
+    "ଅଧିକାରୀଙ୍କ ନାମ"
+  ],
+  "city.officers.phone": [
+    "Phone number (the login)",
+    "फ़ोन नंबर (लॉगिन)",
+    "ଫୋନ୍ ନମ୍ବର (ଲଗଇନ୍)"
+  ],
+  "city.officers.password": [
+    "First password",
+    "पहला पासवर्ड",
+    "ପ୍ରଥମ ପାସୱାର୍ଡ"
+  ],
+  "city.officers.passwordHint": [
+    "At least 6 characters. Give it to the officer in person.",
+    "कम से कम 6 अक्षर। अधिकारी को सीधे दें।",
+    "ଅତିକମରେ 6 ଅକ୍ଷର। ଅଧିକାରୀଙ୍କୁ ସିଧା ଦିଅନ୍ତୁ।"
+  ],
+  "city.officers.ward": [
+    "Ward",
+    "वार्ड",
+    "ୱାର୍ଡ"
+  ],
+  "city.officers.pickWard": [
+    "Choose a ward…",
+    "वार्ड चुनें…",
+    "ୱାର୍ଡ ବାଛନ୍ତୁ…"
+  ],
+  "city.officers.created": [
+    "Officer created.",
+    "अधिकारी बना दिया गया।",
+    "ଅଧିକାରୀ ସୃଷ୍ଟି ହେଲା।"
+  ],
+  "city.officers.move": [
+    "Move to",
+    "यहाँ भेजें",
+    "ଏଠାକୁ ପଠାନ୍ତୁ"
+  ],
+  "city.officers.moveButton": [
+    "Move officer",
+    "अधिकारी को भेजें",
+    "ଅଧିକାରୀଙ୍କୁ ପଠାନ୍ତୁ"
+  ],
+  "city.officers.switchOff": [
+    "Switch off",
+    "बंद करें",
+    "ବନ୍ଦ କରନ୍ତୁ"
+  ],
+  "city.officers.confirmOff": [
+    "Yes, switch off",
+    "हाँ, बंद करें",
+    "ହଁ, ବନ୍ଦ କରନ୍ତୁ"
+  ],
+  "city.officers.switchOn": [
+    "Switch on",
+    "चालू करें",
+    "ଚାଲୁ କରନ୍ତୁ"
+  ],
+  "city.officers.off": [
+    "Switched off",
+    "बंद",
+    "ବନ୍ଦ"
+  ],
+  "city.officers.on": [
+    "Active",
+    "सक्रिय",
+    "ସକ୍ରିୟ"
+  ],
+  "city.officers.actions": [
+    "{{n}} actions so far",
+    "अब तक {{n}} कार्रवाइयाँ",
+    "ଏପର୍ଯ୍ୟନ୍ତ {{n}} କାର୍ଯ୍ୟ"
+  ],
+  "city.officers.never": [
+    "No action yet",
+    "अभी तक कोई कार्रवाई नहीं",
+    "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି କାର୍ଯ୍ୟ ନାହିଁ"
+  ],
+  "city.officers.last": [
+    "Last action {{when}}",
+    "आखिरी कार्रवाई {{when}}",
+    "ଶେଷ କାର୍ଯ୍ୟ {{when}}"
+  ],
+  "activity.REQUEST_OPEN": [
+    "{{actor}} reopened a request: {{detail}}",
+    "{{actor}} ने अनुरोध फिर खोला: {{detail}}",
+    "{{actor}} ଅନୁରୋଧ ପୁଣି ଖୋଲିଲେ: {{detail}}"
+  ],
+  "activity.REQUEST_SCHEDULED": [
+    "{{actor}} scheduled a pickup: {{detail}}",
+    "{{actor}} ने पिकअप तय किया: {{detail}}",
+    "{{actor}} ପିକଅପ୍ ଠିକ୍ କଲେ: {{detail}}"
+  ],
+  "activity.REQUEST_COLLECTED": [
+    "{{actor}} marked a request collected: {{detail}}",
+    "{{actor}} ने अनुरोध को उठाया हुआ चिह्नित किया: {{detail}}",
+    "{{actor}} ଅନୁରୋଧକୁ ସଂଗୃହୀତ ବୋଲି ଚିହ୍ନଟ କଲେ: {{detail}}"
+  ],
+  "activity.REQUEST_REJECTED": [
+    "{{actor}} rejected a request: {{detail}}",
+    "{{actor}} ने अनुरोध अस्वीकार किया: {{detail}}",
+    "{{actor}} ଅନୁରୋଧ ପ୍ରତ୍ୟାଖ୍ୟାନ କଲେ: {{detail}}"
+  ],
+  "activity.DEALER_VERIFIED": [
+    "{{actor}} approved a dealer: {{detail}}",
+    "{{actor}} ने डीलर को मंज़ूरी दी: {{detail}}",
+    "{{actor}} ଡିଲରଙ୍କୁ ଅନୁମୋଦନ କଲେ: {{detail}}"
+  ],
+  "activity.DEALER_REJECTED": [
+    "{{actor}} rejected a dealer: {{detail}}",
+    "{{actor}} ने डीलर को अस्वीकार किया: {{detail}}",
+    "{{actor}} ଡିଲରଙ୍କୁ ପ୍ରତ୍ୟାଖ୍ୟାନ କଲେ: {{detail}}"
+  ],
+  "activity.DEALER_PENDING": [
+    "{{actor}} moved a dealer back to waiting: {{detail}}",
+    "{{actor}} ने डीलर को फिर प्रतीक्षा में रखा: {{detail}}",
+    "{{actor}} ଡିଲରଙ୍କୁ ପୁଣି ଅପେକ୍ଷାରେ ରଖିଲେ: {{detail}}"
+  ],
+  "activity.DISPUTE_RESOLVED": [
+    "{{actor}} resolved a payment dispute: {{detail}}",
+    "{{actor}} ने भुगतान विवाद सुलझाया: {{detail}}",
+    "{{actor}} ପେମେଣ୍ଟ ବିବାଦ ସମାଧାନ କଲେ: {{detail}}"
+  ],
+  "activity.STAFF_ADDED": [
+    "{{actor}} added a collection worker: {{detail}}",
+    "{{actor}} ने संग्रह कर्मचारी जोड़ा: {{detail}}",
+    "{{actor}} ସଂଗ୍ରହ କର୍ମଚାରୀ ଯୋଗ କଲେ: {{detail}}"
+  ],
+  "activity.STAFF_ENABLED": [
+    "{{actor}} re-activated a collection worker: {{detail}}",
+    "{{actor}} ने संग्रह कर्मचारी फिर सक्रिय किया: {{detail}}",
+    "{{actor}} ସଂଗ୍ରହ କର୍ମଚାରୀଙ୍କୁ ପୁଣି ସକ୍ରିୟ କଲେ: {{detail}}"
+  ],
+  "activity.STAFF_DISABLED": [
+    "{{actor}} deactivated a collection worker: {{detail}}",
+    "{{actor}} ने संग्रह कर्मचारी को निष्क्रिय किया: {{detail}}",
+    "{{actor}} ସଂଗ୍ରହ କର୍ମଚାରୀଙ୍କୁ ନିଷ୍କ୍ରିୟ କଲେ: {{detail}}"
+  ],
+  "activity.POINT_ADDED": [
+    "{{actor}} added a drop-off point: {{detail}}",
+    "{{actor}} ने ड्रॉप-ऑफ़ केंद्र जोड़ा: {{detail}}",
+    "{{actor}} ଡ୍ରପ୍-ଅଫ୍ କେନ୍ଦ୍ର ଯୋଗ କଲେ: {{detail}}"
+  ],
+  "activity.POINT_UPDATED": [
+    "{{actor}} updated a drop-off point: {{detail}}",
+    "{{actor}} ने ड्रॉप-ऑफ़ केंद्र बदला: {{detail}}",
+    "{{actor}} ଡ୍ରପ୍-ଅଫ୍ କେନ୍ଦ୍ର ବଦଳାଇଲେ: {{detail}}"
+  ],
+  "activity.OFFICER_CREATED": [
+    "{{actor}} created a ward officer: {{detail}}",
+    "{{actor}} ने वार्ड अधिकारी बनाया: {{detail}}",
+    "{{actor}} ୱାର୍ଡ ଅଧିକାରୀ ସୃଷ୍ଟି କଲେ: {{detail}}"
+  ],
+  "activity.OFFICER_MOVED": [
+    "{{actor}} moved a ward officer here: {{detail}}",
+    "{{actor}} ने एक वार्ड अधिकारी को यहाँ भेजा: {{detail}}",
+    "{{actor}} ଜଣେ ୱାର୍ଡ ଅଧିକାରୀଙ୍କୁ ଏଠାକୁ ପଠାଇଲେ: {{detail}}"
+  ],
+  "activity.OFFICER_ENABLED": [
+    "{{actor}} switched on a ward officer: {{detail}}",
+    "{{actor}} ने वार्ड अधिकारी को चालू किया: {{detail}}",
+    "{{actor}} ୱାର୍ଡ ଅଧିକାରୀଙ୍କୁ ଚାଲୁ କଲେ: {{detail}}"
+  ],
+  "activity.OFFICER_DISABLED": [
+    "{{actor}} switched off a ward officer: {{detail}}",
+    "{{actor}} ने वार्ड अधिकारी को बंद किया: {{detail}}",
+    "{{actor}} ୱାର୍ଡ ଅଧିକାରୀଙ୍କୁ ବନ୍ଦ କଲେ: {{detail}}"
+  ],
+  "activity.empty": [
+    "Nothing has happened yet.",
+    "अभी तक कुछ नहीं हुआ।",
+    "ଏପର୍ଯ୍ୟନ୍ତ କିଛି ହୋଇନାହିଁ।"
+  ],
+  "activity.title": [
+    "Recent activity in your ward",
+    "आपके वार्ड में हाल की गतिविधि",
+    "ଆପଣଙ୍କ ୱାର୍ଡରେ ସାମ୍ପ୍ରତିକ କାର୍ଯ୍ୟକଳାପ"
+  ],
+  "activity.REQUEST_PROBLEM": [
+    "{{actor}} could not collect: {{detail}}",
+    "{{actor}} कचरा नहीं उठा सका: {{detail}}",
+    "{{actor}} ଅଳିଆ ନେଇପାରିଲେ ନାହିଁ: {{detail}}"
+  ],
+  "city.ward.collections": [
+    "Homes collected from",
+    "जिन घरों से कचरा उठा",
+    "ଯେଉଁ ଘରୁ ଅଳିଆ ନିଆଗଲା"
+  ]
+}

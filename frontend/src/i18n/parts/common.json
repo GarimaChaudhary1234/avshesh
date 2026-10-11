@@ -1,0 +1,12 @@
+{
+  "language.label": ["Language", "भाषा", "ଭାଷା"],
+  "units.kg": ["{{value}} kg", "{{value}} किलो", "{{value}} କିଲୋ"],
+  "errors.network": ["Cannot reach the server. Check your internet connection and try again.", "सर्वर से संपर्क नहीं हो पा रहा। अपना इंटरनेट जाँचें और फिर कोशिश करें।", "ସର୍ଭର ସହ ଯୋଗାଯୋଗ ହେଉନାହିଁ। ଆପଣଙ୍କ ଇଣ୍ଟରନେଟ ଯାଞ୍ଚ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।"],
+  "errors.server": ["The server had a problem. Please try again in a moment.", "सर्वर में समस्या आई। कृपया थोड़ी देर में फिर कोशिश करें।", "ସର୍ଭରରେ ସମସ୍ୟା ହେଲା। ଦୟାକରି କିଛି ସମୟ ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।"],
+  "errors.forbidden": ["This action is not available for your role", "यह कार्य आपकी भूमिका के लिए उपलब्ध नहीं है", "ଏହି କାମ ଆପଣଙ୍କ ଭୂମିକା ପାଇଁ ଉପଲବ୍ଧ ନୁହେଁ"],
+  "errors.generic": ["Something went wrong, please try again", "कुछ गड़बड़ हो गई, कृपया फिर कोशिश करें", "କିଛି ଭୁଲ ହୋଇଗଲା, ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ"],
+  "role.HOUSEHOLD": ["Household", "घर / परिवार", "ଘର / ପରିବାର"],
+  "role.KABADIWALA": ["Scrap Dealer", "कबाड़ीवाला", "କବାଡ଼ିୱାଲା"],
+  "role.COMPOST": ["Compost Center", "कंपोस्ट केंद्र", "କମ୍ପୋଷ୍ଟ କେନ୍ଦ୍ର"],
+  "role.MUNICIPAL": ["Municipal Corporation", "नगर निगम", "ମ୍ୟୁନିସିପାଲ କର୍ପୋରେସନ"]
+}

@@ -1,0 +1,93 @@
+# The whole app on ONE server (EC2), with HTTPS. Only Caddy is reachable from the internet (ports 80 and 443); the
+# database, Redis, the backend and nginx stay inside the Docker network.
+#
+#   cp .env.prod.example .env     (fill it in)
+#   docker compose -f docker-compose.prod.yml --env-file .env up -d --build
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: avshesh
+      POSTGRES_USER: avshesh
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U avshesh"]
+      interval: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 10
+
+  backend:
+    build: ../backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: local          # local storage on a volume and the demo city; see deploy/README.md
+      DB_URL: jdbc:postgresql://db:5432/avshesh
+      DB_USER: avshesh
+      DB_PASSWORD: ${POSTGRES_PASSWORD}
+      PHOTOS_DIR: /data/photos
+      # Photos are read by Amazon Bedrock with the IAM role of this server: no access keys are stored anywhere.
+      SCANNER: ${SCANNER:-bedrock}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      BEDROCK_MODEL_ID: ${BEDROCK_MODEL_ID:-amazon.nova-lite-v1:0}
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env}
+      COOKIE_SECURE: "true"                  # the login cookie only travels over HTTPS
+      CORS_ORIGINS: https://${DOMAIN:?set DOMAIN in .env}
+      # A real SMS service is not connected: an on-screen code would let anyone reset any password.
+      SMS_SENDER: log
+      SMS_DEV_CODES: "false"
+      PHONE_VERIFICATION_REQUIRED: "false"
+      DEMO_RICH: ${DEMO_RICH:-true}
+      LIMITER: redis
+      REDIS_HOST: redis
+      REDIS_HEALTH: "true"
+      GEO_PROVIDER: ${GEO_PROVIDER:-nominatim}
+      LOGGING_STRUCTURED_FORMAT_CONSOLE: ecs
+      JAVA_TOOL_OPTIONS: -XX:MaxRAMPercentage=55
+    volumes:
+      - photos:/data/photos
+
+  frontend:
+    build: ../frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      # Caddy is the only thing in front of nginx: believe the client address it forwards.
+      TRUST_PROXY_CIDR: 172.16.0.0/12
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      - frontend
+    environment:
+      DOMAIN: ${DOMAIN}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  pgdata:
+  photos:
+  caddy_data:
+  caddy_config:

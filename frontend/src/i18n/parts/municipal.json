@@ -1,0 +1,527 @@
+{
+  "municipal.active": [
+    "Active",
+    "सक्रिय",
+    "ସକ୍ରିୟ"
+  ],
+  "municipal.inactive": [
+    "Inactive",
+    "निष्क्रिय",
+    "ନିଷ୍କ୍ରିୟ"
+  ],
+  "municipal.activate": [
+    "Activate",
+    "सक्रिय करें",
+    "ସକ୍ରିୟ କରନ୍ତୁ"
+  ],
+  "municipal.deactivate": [
+    "Deactivate",
+    "निष्क्रिय करें",
+    "ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"
+  ],
+  "municipal.name": [
+    "Name",
+    "नाम",
+    "ନାମ"
+  ],
+  "municipal.saving": [
+    "Saving…",
+    "सहेजा जा रहा है…",
+    "ସେଭ୍ ହେଉଛି…"
+  ],
+  "municipal.reject": [
+    "Reject",
+    "अस्वीकार करें",
+    "ଅଗ୍ରାହ୍ୟ କରନ୍ତୁ"
+  ],
+  "municipal.review": [
+    "Review",
+    "देखें",
+    "ଦେଖନ୍ତୁ"
+  ],
+  "municipal.tab.pickups": [
+    "Pickup requests",
+    "पिकअप अनुरोध",
+    "ପିକଅପ୍ ଅନୁରୋଧ"
+  ],
+  "municipal.tab.disputes": [
+    "Payment disputes",
+    "भुगतान विवाद",
+    "ପେମେଣ୍ଟ ବିବାଦ"
+  ],
+  "municipal.overview.cityTitle": [
+    "City overview",
+    "शहर का सार",
+    "ସହରର ସାରାଂଶ"
+  ],
+  "municipal.overview.wardFigures": [
+    "Official figures for this ward: {{households}} households, population {{population}}. Registered on Avshesh: {{registered}}.",
+    "इस वार्ड के आधिकारिक आँकड़े: {{households}} परिवार, जनसंख्या {{population}}। अवशेष पर पंजीकृत: {{registered}}।",
+    "ଏହି ୱାର୍ଡର ସରକାରୀ ଅଙ୍କ: {{households}} ପରିବାର, ଜନସଂଖ୍ୟା {{population}}। ଅବଶେଷରେ ପଞ୍ଜୀକୃତ: {{registered}}।"
+  ],
+  "municipal.overview.commissioner": [
+    "You are a city-wide commissioner: every ward is included.",
+    "आप पूरे शहर के आयुक्त हैं: सभी वार्ड शामिल हैं।",
+    "ଆପଣ ସମଗ୍ର ସହରର କମିଶନର: ସମସ୍ତ ୱାର୍ଡ ଅନ୍ତର୍ଭୁକ୍ତ।"
+  ],
+  "municipal.overview.attention": [
+    "Needs your attention",
+    "आपके ध्यान की ज़रूरत है",
+    "ଆପଣଙ୍କ ଧ୍ୟାନ ଆବଶ୍ୟକ"
+  ],
+  "municipal.overview.disputes": [
+    "Payment disputes waiting for review: {{count}}",
+    "समीक्षा की प्रतीक्षा में भुगतान विवाद: {{count}}",
+    "ସମୀକ୍ଷା ପାଇଁ ଅପେକ୍ଷାରେ ଥିବା ପେମେଣ୍ଟ ବିବାଦ: {{count}}"
+  ],
+  "municipal.overview.openRequestsOne": [
+    "{{n}} open waste pickup request",
+    "{{n}} खुला कचरा पिकअप अनुरोध",
+    "{{n}} ଖୋଲା ଆବର୍ଜନା ପିକଅପ୍ ଅନୁରୋଧ"
+  ],
+  "municipal.overview.openRequestsMany": [
+    "{{n}} open waste pickup requests",
+    "{{n}} खुले कचरा पिकअप अनुरोध",
+    "{{n}} ଖୋଲା ଆବର୍ଜନା ପିକଅପ୍ ଅନୁରୋଧ"
+  ],
+  "municipal.overview.pendingDealersOne": [
+    "{{n}} dealer is waiting for verification",
+    "{{n}} डीलर सत्यापन की प्रतीक्षा में है",
+    "{{n}} ଡିଲର ଯାଞ୍ଚ ପାଇଁ ଅପେକ୍ଷାରେ ଅଛନ୍ତି"
+  ],
+  "municipal.overview.pendingDealersMany": [
+    "{{n}} dealers are waiting for verification",
+    "{{n}} डीलर सत्यापन की प्रतीक्षा में हैं",
+    "{{n}} ଡିଲର ଯାଞ୍ଚ ପାଇଁ ଅପେକ୍ଷାରେ ଅଛନ୍ତି"
+  ],
+  "municipal.overview.landfill": [
+    "Waste kept out of landfill",
+    "लैंडफिल से बचाया गया कचरा",
+    "ଲ୍ୟାଣ୍ଡଫିଲ୍ ବାହାରେ ରଖାଯାଇଥିବା ଆବର୍ଜନା"
+  ],
+  "municipal.overview.diverted": [
+    "Diverted",
+    "डायवर्ट किया गया",
+    "ଅନ୍ୟତ୍ର ପଠାଯାଇଛି"
+  ],
+  "municipal.overview.recycled": [
+    "Recycled",
+    "रीसाइकिल हुआ",
+    "ରିସାଇକ୍ଲ ହୋଇଛି"
+  ],
+  "municipal.overview.composted": [
+    "Compost made",
+    "बनी खाद",
+    "ତିଆରି ଖତ"
+  ],
+  "municipal.overview.co2": [
+    "CO₂ avoided (est.)",
+    "CO₂ की बचत (अनुमानित)",
+    "CO₂ ସଞ୍ଚୟ (ଆନୁମାନିକ)"
+  ],
+  "municipal.overview.earned": [
+    "Households earned {{amount}} across {{pickups}} completed pickups.",
+    "{{pickups}} पूरे हुए पिकअप से परिवारों ने {{amount}} कमाए।",
+    "{{pickups}} ସମ୍ପୂର୍ଣ୍ଣ ପିକଅପରୁ ପରିବାରମାନେ {{amount}} ଉପାର୍ଜନ କରିଛନ୍ତି।"
+  ],
+  "municipal.overview.network": [
+    "Network",
+    "नेटवर्क",
+    "ନେଟୱାର୍କ"
+  ],
+  "municipal.overview.households": [
+    "Households",
+    "परिवार",
+    "ପରିବାର"
+  ],
+  "municipal.overview.verifiedDealers": [
+    "Verified dealers",
+    "सत्यापित डीलर",
+    "ଯାଞ୍ଚିତ ଡିଲର"
+  ],
+  "municipal.overview.dropoffPoints": [
+    "Drop-off points",
+    "ड्रॉप-ऑफ़ केंद्र",
+    "ଡ୍ରପ୍-ଅଫ୍ କେନ୍ଦ୍ର"
+  ],
+  "municipal.overview.pools": [
+    "Mohalla Pools",
+    "मोहल्ला पूल",
+    "ମହଲ୍ଲା ପୁଲ୍"
+  ],
+  "municipal.overview.filling": [
+    "Filling",
+    "भर रहा है",
+    "ଭରୁଛି"
+  ],
+  "municipal.overview.ready": [
+    "Ready",
+    "तैयार",
+    "ପ୍ରସ୍ତୁତ"
+  ],
+  "municipal.overview.accepted": [
+    "Accepted",
+    "स्वीकृत",
+    "ଗ୍ରହଣ ହୋଇଛି"
+  ],
+  "municipal.overview.done": [
+    "Done",
+    "पूरा",
+    "ସମ୍ପୂର୍ଣ୍ଣ"
+  ],
+  "municipal.overview.boundaries": [
+    "Ward boundaries: Data{Meet} Municipal Spatial Data, CC BY-SA 2.5 India.",
+    "वार्ड की सीमाएँ: Data{Meet} Municipal Spatial Data, CC BY-SA 2.5 India।",
+    "ୱାର୍ଡ ସୀମା: Data{Meet} Municipal Spatial Data, CC BY-SA 2.5 India।"
+  ],
+  "municipal.status.OPEN": [
+    "Open",
+    "खुला",
+    "ଖୋଲା"
+  ],
+  "municipal.status.SCHEDULED": [
+    "Scheduled",
+    "निर्धारित",
+    "ନିର୍ଦ୍ଧାରିତ"
+  ],
+  "municipal.status.COLLECTED": [
+    "Collected",
+    "एकत्र किया गया",
+    "ସଂଗ୍ରହ ହୋଇଛି"
+  ],
+  "municipal.status.REJECTED": [
+    "Rejected",
+    "अस्वीकृत",
+    "ଅଗ୍ରାହ୍ୟ"
+  ],
+  "municipal.requests.title": [
+    "Waste pickup requests",
+    "कचरा पिकअप अनुरोध",
+    "ଆବର୍ଜନା ପିକଅପ୍ ଅନୁରୋଧ"
+  ],
+  "municipal.requests.intro": [
+    "Non-recyclable waste (dust, sweepings, soiled or sanitary waste) that households of your ward asked the corporation to collect.",
+    "ऐसा गैर-रीसाइकिल कचरा (धूल, झाड़ू का कचरा, गंदा या सैनिटरी कचरा) जिसे आपके वार्ड के परिवारों ने निगम से उठवाने को कहा है।",
+    "ଅପୁନଃଚକ୍ରଣୀୟ ଆବର୍ଜନା (ଧୂଳି, ଝାଡ଼ୁ ଆବର୍ଜନା, ମଳିନ ବା ସ୍ୱଚ୍ଛତା ଆବର୍ଜନା) ଯାହାକୁ ଆପଣଙ୍କ ୱାର୍ଡର ପରିବାରମାନେ ନିଗମକୁ ସଂଗ୍ରହ କରିବାକୁ କହିଛନ୍ତି।"
+  ],
+  "municipal.requests.empty": [
+    "No requests yet.",
+    "अभी कोई अनुरोध नहीं है।",
+    "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଅନୁରୋଧ ନାହିଁ।"
+  ],
+  "municipal.requests.viewLocation": [
+    "View location",
+    "स्थान देखें",
+    "ଲୋକେସନ୍ ଦେଖନ୍ତୁ"
+  ],
+  "municipal.requests.collectionOn": [
+    "Collection on <b>{{date}}</b>",
+    "<b>{{date}}</b> को संग्रह",
+    "<b>{{date}}</b> ରେ ସଂଗ୍ରହ"
+  ],
+  "municipal.requests.collectionBy": [
+    "by <b>{{name}}</b> ({{phone}})",
+    "<b>{{name}}</b> द्वारा ({{phone}})",
+    "<b>{{name}}</b> ଙ୍କ ଦ୍ୱାରା ({{phone}})"
+  ],
+  "municipal.requests.assignTo": [
+    "Assign to",
+    "इन्हें सौंपें",
+    "ଏହାଙ୍କୁ ଦିଅନ୍ତୁ"
+  ],
+  "municipal.requests.selectStaff": [
+    "Select a staff member…",
+    "कर्मचारी चुनें…",
+    "କର୍ମଚାରୀ ବାଛନ୍ତୁ…"
+  ],
+  "municipal.requests.collectionDate": [
+    "Collection date",
+    "संग्रह की तारीख",
+    "ସଂଗ୍ରହ ତାରିଖ"
+  ],
+  "municipal.requests.rescheduleTo": [
+    "Reschedule to",
+    "नई तारीख",
+    "ନୂଆ ତାରିଖ"
+  ],
+  "municipal.requests.assignSchedule": [
+    "Assign and schedule",
+    "सौंपें और समय तय करें",
+    "ଦିଅନ୍ତୁ ଓ ସମୟ ନିର୍ଦ୍ଧାରଣ କରନ୍ତୁ"
+  ],
+  "municipal.requests.reschedule": [
+    "Reschedule",
+    "दोबारा तय करें",
+    "ପୁନଃ ନିର୍ଦ୍ଧାରଣ କରନ୍ତୁ"
+  ],
+  "municipal.requests.markCollected": [
+    "Mark collected",
+    "एकत्र हुआ चिह्नित करें",
+    "ସଂଗୃହୀତ ଚିହ୍ନିତ କରନ୍ତୁ"
+  ],
+  "municipal.requests.addStaffFirst": [
+    "Add a staff member under the Staff tab first.",
+    "पहले स्टाफ टैब में एक कर्मचारी जोड़ें।",
+    "ପ୍ରଥମେ ଷ୍ଟାଫ୍ ଟାବ୍‌ରେ ଜଣେ କର୍ମଚାରୀ ଯୋଗ କରନ୍ତୁ।"
+  ],
+  "municipal.disputes.title": [
+    "Payment disputes",
+    "भुगतान विवाद",
+    "ପେମେଣ୍ଟ ବିବାଦ"
+  ],
+  "municipal.disputes.intro": [
+    "Households that said they were not paid correctly. Look into each case and record how it was settled.",
+    "वे परिवार जिन्होंने कहा कि उन्हें सही भुगतान नहीं मिला। हर मामले को देखें और लिखें कि वह कैसे सुलझा।",
+    "ଯେଉଁ ପରିବାର କହିଛନ୍ତି ସେମାନଙ୍କୁ ଠିକ୍ ପେମେଣ୍ଟ ମିଳିନାହିଁ। ପ୍ରତ୍ୟେକ ମାମଲା ଦେଖନ୍ତୁ ଓ ଏହା କିପରି ସମାଧାନ ହେଲା ଲେଖନ୍ତୁ।"
+  ],
+  "municipal.disputes.empty": [
+    "No open payment disputes",
+    "कोई खुला भुगतान विवाद नहीं",
+    "କୌଣସି ଖୋଲା ପେମେଣ୍ଟ ବିବାଦ ନାହିଁ"
+  ],
+  "municipal.disputes.resolved": [
+    "Dispute resolved",
+    "विवाद सुलझा दिया गया",
+    "ବିବାଦ ସମାଧାନ ହୋଇଛି"
+  ],
+  "municipal.disputes.collector": [
+    "Collector: {{name}}",
+    "संग्रहकर्ता: {{name}}",
+    "ସଂଗ୍ରହକାରୀ: {{name}}"
+  ],
+  "municipal.disputes.badge": [
+    "Disputed",
+    "विवादित",
+    "ବିବାଦୀୟ"
+  ],
+  "municipal.disputes.noteLabel": [
+    "Resolution note",
+    "समाधान नोट",
+    "ସମାଧାନ ନୋଟ୍"
+  ],
+  "municipal.disputes.resolve": [
+    "Mark resolved",
+    "सुलझा हुआ चिह्नित करें",
+    "ସମାଧାନ ହୋଇଛି ଚିହ୍ନିତ କରନ୍ତୁ"
+  ],
+  "municipal.points.title": [
+    "Drop-off points",
+    "ड्रॉप-ऑफ़ केंद्र",
+    "ଡ୍ରପ୍-ଅଫ୍ କେନ୍ଦ୍ର"
+  ],
+  "municipal.points.intro": [
+    "Authorised places for hazardous waste. Households see the nearest active ones after scanning a battery, bulb, medicine or electronic item.",
+    "खतरनाक कचरे के लिए अधिकृत स्थान। बैटरी, बल्ब, दवा या इलेक्ट्रॉनिक सामान स्कैन करने के बाद परिवारों को सबसे पास के सक्रिय केंद्र दिखते हैं।",
+    "ବିପଜ୍ଜନକ ଆବର୍ଜନା ପାଇଁ ଅନୁମୋଦିତ ସ୍ଥାନ। ବ୍ୟାଟେରୀ, ବଲ୍ବ, ଔଷଧ ବା ଇଲେକ୍ଟ୍ରୋନିକ୍ ସାମଗ୍ରୀ ସ୍କାନ୍ କଲା ପରେ ପରିବାରମାନେ ସବୁଠାରୁ ନିକଟ ସକ୍ରିୟ କେନ୍ଦ୍ର ଦେଖନ୍ତି।"
+  ],
+  "municipal.points.accepts": [
+    "Accepts: {{value}}",
+    "स्वीकार करता है: {{value}}",
+    "ଗ୍ରହଣ କରେ: {{value}}"
+  ],
+  "municipal.points.add": [
+    "Add a drop-off point",
+    "ड्रॉप-ऑफ़ केंद्र जोड़ें",
+    "ଡ୍ରପ୍-ଅଫ୍ କେନ୍ଦ୍ର ଯୋଗ କରନ୍ତୁ"
+  ],
+  "municipal.points.addButton": [
+    "Add drop-off point",
+    "ड्रॉप-ऑफ़ केंद्र जोड़ें",
+    "ଡ୍ରପ୍-ଅଫ୍ କେନ୍ଦ୍ର ଯୋଗ କରନ୍ତୁ"
+  ],
+  "municipal.points.address": [
+    "Address",
+    "पता",
+    "ଠିକଣା"
+  ],
+  "municipal.points.lat": [
+    "Latitude",
+    "अक्षांश",
+    "ଅକ୍ଷାଂଶ"
+  ],
+  "municipal.points.latHint": [
+    "Must be inside your ward",
+    "आपके वार्ड के अंदर होना चाहिए",
+    "ଆପଣଙ୍କ ୱାର୍ଡ ଭିତରେ ହେବା ଜରୁରୀ"
+  ],
+  "municipal.points.lng": [
+    "Longitude",
+    "देशांतर",
+    "ଦ୍ରାଘିମା"
+  ],
+  "municipal.points.acceptsLabel": [
+    "What it accepts",
+    "यह क्या लेता है",
+    "ଏହା କ'ଣ ଗ୍ରହଣ କରେ"
+  ],
+  "municipal.points.acceptsPlaceholder": [
+    "e.g. Batteries, bulbs, e-waste",
+    "जैसे बैटरी, बल्ब, ई-कचरा",
+    "ଯେପରି ବ୍ୟାଟେରୀ, ବଲ୍ବ, ଇ-ଆବର୍ଜନା"
+  ],
+  "municipal.points.hours": [
+    "Opening hours (optional)",
+    "खुलने का समय (वैकल्पिक)",
+    "ଖୋଲିବା ସମୟ (ଇଚ୍ଛାଧୀନ)"
+  ],
+  "municipal.staff.title": [
+    "Collection staff",
+    "संग्रह कर्मचारी",
+    "ସଂଗ୍ରହ କର୍ମଚାରୀ"
+  ],
+  "municipal.staff.intro": [
+    "The workers of your ward who collect non-recyclable waste. You assign one to each pickup request.",
+    "आपके वार्ड के वे कर्मचारी जो गैर-रीसाइकिल कचरा उठाते हैं। आप हर पिकअप अनुरोध पर एक को नियुक्त करते हैं।",
+    "ଆପଣଙ୍କ ୱାର୍ଡର ଯେଉଁ କର୍ମଚାରୀ ଅପୁନଃଚକ୍ରଣୀୟ ଆବର୍ଜନା ସଂଗ୍ରହ କରନ୍ତି। ଆପଣ ପ୍ରତ୍ୟେକ ପିକଅପ୍ ଅନୁରୋଧ ପାଇଁ ଜଣଙ୍କୁ ଦାୟିତ୍ୱ ଦିଅନ୍ତି।"
+  ],
+  "municipal.staff.empty": [
+    "No staff added yet.",
+    "अभी कोई कर्मचारी नहीं जोड़ा गया।",
+    "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି କର୍ମଚାରୀ ଯୋଗ ହୋଇନାହିଁ।"
+  ],
+  "municipal.staff.add": [
+    "Add a staff member",
+    "कर्मचारी जोड़ें",
+    "କର୍ମଚାରୀ ଯୋଗ କରନ୍ତୁ"
+  ],
+  "municipal.staff.addButton": [
+    "Add staff member",
+    "कर्मचारी जोड़ें",
+    "କର୍ମଚାରୀ ଯୋଗ କରନ୍ତୁ"
+  ],
+  "municipal.staff.phone": [
+    "Phone number",
+    "फ़ोन नंबर",
+    "ଫୋନ୍ ନମ୍ବର"
+  ],
+  "municipal.staff.phoneHint": [
+    "10 digits",
+    "10 अंक",
+    "10 ଅଙ୍କ"
+  ],
+  "municipal.staff.officerOnly": [
+    "Staff are added by the officer of each ward.",
+    "कर्मचारी हर वार्ड के अधिकारी द्वारा जोड़े जाते हैं।",
+    "କର୍ମଚାରୀମାନଙ୍କୁ ପ୍ରତ୍ୟେକ ୱାର୍ଡର ଅଧିକାରୀ ଯୋଗ କରନ୍ତି।"
+  ],
+  "municipal.dealers.title": [
+    "Scrap dealers and compost centers",
+    "कबाड़ डीलर और खाद केंद्र",
+    "ଲୁହାଲଟର ଡିଲର ଓ ଖତ କେନ୍ଦ୍ର"
+  ],
+  "municipal.dealers.intro": [
+    "Only verified collectors can see and accept pools. Check their business before you approve.",
+    "केवल सत्यापित संग्रहकर्ता ही पूल देख और स्वीकार कर सकते हैं। मंज़ूरी से पहले उनका व्यवसाय जाँच लें।",
+    "କେବଳ ଯାଞ୍ଚିତ ସଂଗ୍ରହକାରୀ ପୁଲ୍ ଦେଖିପାରିବେ ଓ ଗ୍ରହଣ କରିପାରିବେ। ଅନୁମୋଦନ ପୂର୍ବରୁ ସେମାନଙ୍କ ବ୍ୟବସାୟ ଯାଞ୍ଚ କରନ୍ତୁ।"
+  ],
+  "municipal.dealers.upTo": [
+    "up to {{km}} km",
+    "{{km}} किमी तक",
+    "{{km}} କିମି ପର୍ଯ୍ୟନ୍ତ"
+  ],
+  "municipal.dealers.paused": [
+    "Currently paused by the dealer",
+    "डीलर ने फ़िलहाल रोक रखा है",
+    "ଡିଲର ଏବେ ପାଇଁ ବନ୍ଦ ରଖିଛନ୍ତି"
+  ],
+  "municipal.dealers.verify": [
+    "Verify",
+    "सत्यापित करें",
+    "ଯାଞ୍ଚ କରନ୍ତୁ"
+  ],
+  "municipal.dealers.revoke": [
+    "Revoke approval",
+    "मंज़ूरी वापस लें",
+    "ଅନୁମୋଦନ ପ୍ରତ୍ୟାହାର କରନ୍ତୁ"
+  ],
+  "municipal.verification.VERIFIED": [
+    "Verified",
+    "सत्यापित",
+    "ଯାଞ୍ଚିତ"
+  ],
+  "municipal.verification.PENDING": [
+    "Pending",
+    "लंबित",
+    "ବାକି ଅଛି"
+  ],
+  "municipal.verification.REJECTED": [
+    "Rejected",
+    "अस्वीकृत",
+    "ଅଗ୍ରାହ୍ୟ"
+  ],
+  "municipal.vehicle.CYCLE_RICKSHAW": [
+    "Cycle rickshaw",
+    "साइकिल रिक्शा",
+    "ସାଇକେଲ୍ ରିକ୍ସା"
+  ],
+  "municipal.vehicle.E_RICKSHAW": [
+    "E-rickshaw",
+    "ई-रिक्शा",
+    "ଇ-ରିକ୍ସା"
+  ],
+  "municipal.vehicle.AUTO": [
+    "Auto",
+    "ऑटो",
+    "ଅଟୋ"
+  ],
+  "municipal.vehicle.MINI_TRUCK": [
+    "Mini truck",
+    "मिनी ट्रक",
+    "ମିନି ଟ୍ରକ୍"
+  ],
+  "impact.title": [
+    "Avshesh Impact",
+    "अवशेष का प्रभाव",
+    "ଅବଶେଷର ପ୍ରଭାବ"
+  ],
+  "impact.back": [
+    "Back",
+    "वापस",
+    "ଫେରନ୍ତୁ"
+  ],
+  "impact.intro": [
+    "How much waste Mohalla Pools have kept out of landfill, and how much households have earned.",
+    "मोहल्ला पूल ने कितना कचरा लैंडफिल से बचाया और परिवारों ने कितनी कमाई की।",
+    "ମହଲ୍ଲା ପୁଲ୍ କେତେ ଆବର୍ଜନା ଲ୍ୟାଣ୍ଡଫିଲ୍ ବାହାରେ ରଖିଛି ଏବଂ ପରିବାରମାନେ କେତେ ଉପାର୍ଜନ କରିଛନ୍ତି।"
+  ],
+  "impact.diverted": [
+    "Diverted from landfill",
+    "लैंडफिल से बचाया गया",
+    "ଲ୍ୟାଣ୍ଡଫିଲ୍ ରୁ ଅନ୍ୟତ୍ର ପଠାଯାଇଛି"
+  ],
+  "impact.recycled": [
+    "Recycled",
+    "रीसाइकिल हुआ",
+    "ରିସାଇକ୍ଲ ହୋଇଛି"
+  ],
+  "impact.composted": [
+    "Compost made",
+    "बनी खाद",
+    "ତିଆରି ଖତ"
+  ],
+  "impact.co2": [
+    "CO₂ avoided (estimate)",
+    "CO₂ की बचत (अनुमान)",
+    "CO₂ ସଞ୍ଚୟ (ଆନୁମାନିକ)"
+  ],
+  "impact.paid": [
+    "Paid to households",
+    "परिवारों को भुगतान",
+    "ପରିବାରମାନଙ୍କୁ ପ୍ରଦତ୍ତ"
+  ],
+  "impact.pickups": [
+    "Pickups completed",
+    "पूरे हुए पिकअप",
+    "ସମ୍ପୂର୍ଣ୍ଣ ପିକଅପ୍"
+  ],
+  "impact.disclaimer": [
+    "CO₂ figures are demo estimates, not measured emission factors.",
+    "CO₂ के आँकड़े डेमो अनुमान हैं, मापे गए उत्सर्जन कारक नहीं।",
+    "CO₂ ଅଙ୍କଗୁଡ଼ିକ ଡେମୋ ଅନୁମାନ, ମାପିତ ନିର୍ଗମନ କାରକ ନୁହେଁ।"
+  ],
+  "impact.collections": [
+    "Homes collected from",
+    "जिन घरों से कचरा उठा",
+    "ଯେଉଁ ଘରୁ ଅଳିଆ ନିଆଗଲା"
+  ]
+}

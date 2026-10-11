@@ -1,0 +1,83 @@
+# UNTESTED DRAFT. This template has never been deployed: it was written from the CloudWatch documentation
+# and not run against a real AWS account. Validate it first (aws cloudformation validate-template) and
+# deploy to a test account before trusting it.
+#
+# It assumes the app runs behind an Application Load Balancer and on RDS (the usual AWS shape for this
+# project). Alarms notify an SNS topic that you subscribe to by e-mail.
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Avshesh alarms (untested draft)
+
+Parameters:
+  AlertEmail:
+    Type: String
+  LoadBalancerFullName:
+    Type: String
+    Description: Value of the ALB dimension, e.g. app/avshesh/0123456789abcdef
+  DbInstanceId:
+    Type: String
+
+Resources:
+  AlertTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      Subscription:
+        - Protocol: email
+          Endpoint: !Ref AlertEmail
+
+  Backend5xx:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmDescription: More than 10 server errors in 5 minutes
+      Namespace: AWS/ApplicationELB
+      MetricName: HTTPCode_Target_5XX_Count
+      Dimensions: [{ Name: LoadBalancer, Value: !Ref LoadBalancerFullName }]
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 10
+      ComparisonOperator: GreaterThanThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref AlertTopic]
+
+  SlowResponses:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmDescription: Average response time above 2 seconds for 10 minutes
+      Namespace: AWS/ApplicationELB
+      MetricName: TargetResponseTime
+      Dimensions: [{ Name: LoadBalancer, Value: !Ref LoadBalancerFullName }]
+      Statistic: Average
+      Period: 300
+      EvaluationPeriods: 2
+      Threshold: 2
+      ComparisonOperator: GreaterThanThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref AlertTopic]
+
+  DatabaseCpu:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmDescription: Database CPU above 80 percent for 15 minutes
+      Namespace: AWS/RDS
+      MetricName: CPUUtilization
+      Dimensions: [{ Name: DBInstanceIdentifier, Value: !Ref DbInstanceId }]
+      Statistic: Average
+      Period: 300
+      EvaluationPeriods: 3
+      Threshold: 80
+      ComparisonOperator: GreaterThanThreshold
+      AlarmActions: [!Ref AlertTopic]
+
+  DatabaseLowStorage:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmDescription: Less than 2 GB of database storage left
+      Namespace: AWS/RDS
+      MetricName: FreeStorageSpace
+      Dimensions: [{ Name: DBInstanceIdentifier, Value: !Ref DbInstanceId }]
+      Statistic: Minimum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 2147483648
+      ComparisonOperator: LessThanThreshold
+      AlarmActions: [!Ref AlertTopic]

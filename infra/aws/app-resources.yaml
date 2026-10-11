@@ -1,0 +1,82 @@
+# UNTESTED DRAFT. Written from the CloudFormation documentation and never deployed. Run
+#   aws cloudformation validate-template --template-body file://infra/aws/app-resources.yaml
+# and deploy it to a throw-away account first. Deploying creates billable resources.
+#
+# What it creates: the photo bucket (private, encrypted, with a rule that expires tmp/ after one day) and the
+# IAM role the backend runs as, so the app needs no access keys: Bedrock to read photos, S3 for photos, SNS for
+# SMS. RDS, ECR, App Runner and Redis are not here: see RUNBOOK.md for those steps.
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Avshesh photo bucket and backend role (untested draft)
+
+Parameters:
+  BucketName:
+    Type: String
+    Description: Globally unique bucket name, e.g. avshesh-photos-<account-id>
+  BedrockModelId:
+    Type: String
+    Default: amazon.nova-lite-v1:0
+    Description: Must match the model the app is configured with (check the Bedrock console for the exact id in your region).
+
+Resources:
+  PhotoBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref BucketName
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      LifecycleConfiguration:
+        Rules:
+          - Id: expire-abandoned-scans
+            Status: Enabled
+            Prefix: tmp/
+            ExpirationInDays: 1
+          - Id: abort-unfinished-uploads
+            Status: Enabled
+            AbortIncompleteMultipartUpload:
+              DaysAfterInitiation: 1
+
+  BackendRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: tasks.apprunner.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: avshesh-backend
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Sid: ReadPhotosWithBedrock
+                Effect: Allow
+                Action: bedrock:InvokeModel
+                Resource: !Sub arn:${AWS::Partition}:bedrock:${AWS::Region}::foundation-model/${BedrockModelId}
+              - Sid: Photos
+                Effect: Allow
+                Action: [s3:PutObject, s3:GetObject, s3:DeleteObject]
+                Resource: !Sub ${PhotoBucket.Arn}/*
+              - Sid: ListPhotos
+                Effect: Allow
+                Action: s3:ListBucket
+                Resource: !GetAtt PhotoBucket.Arn
+              # Direct SMS to a phone number has no resource ARN, so the resource is "*".
+              - Sid: Sms
+                Effect: Allow
+                Action: sns:Publish
+                Resource: '*'
+
+Outputs:
+  BucketName:
+    Value: !Ref PhotoBucket
+  BackendRoleArn:
+    Value: !GetAtt BackendRole.Arn

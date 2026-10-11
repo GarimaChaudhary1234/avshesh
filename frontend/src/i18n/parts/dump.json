@@ -1,0 +1,9 @@
+{
+  "dump.title.household": ["Your household's waste this month", "इस महीने आपके घर का कचरा", "ଏହି ମାସରେ ଆପଣଙ୍କ ଘରର ଅଳିଆ"],
+  "dump.title.ward": ["Waste of this ward since the first pickup", "पहले पिकअप के बाद से इस वार्ड का कचरा", "ପ୍ରଥମ ପିକଅପ୍ ପରଠାରୁ ଏହି ୱାର୍ଡର ଅଳିଆ"],
+  "dump.title.city": ["Waste of the wards we serve, since the first pickup", "जिन वार्डों में हम सेवा देते हैं उनका कचरा, पहले पिकअप के बाद से", "ଆମେ ସେବା ଦେଉଥିବା ୱାର୍ଡର ଅଳିଆ, ପ୍ରଥମ ପିକଅପ୍ ପରଠାରୁ"],
+  "dump.keptOut": ["kept out of the dump", "डंप में जाने से बचा", "ଡମ୍ପକୁ ଯିବାରୁ ବଞ୍ଚିଲା"],
+  "dump.without": ["would go to the dump without Avshesh (estimate)", "अवशेष के बिना डंप में जाता (अनुमान)", "ଅବଶେଷ ବିନା ଡମ୍ପକୁ ଯାଇଥାନ୍ତା (ଅନୁମାନ)"],
+  "dump.with": ["goes to the dump now (estimate)", "अब डंप में जाता है (अनुमान)", "ବର୍ତ୍ତମାନ ଡମ୍ପକୁ ଯାଏ (ଅନୁମାନ)"],
+  "dump.assumption": ["This is an estimate: it assumes about 0.45 kg of waste per person per day. Only waste handled through Avshesh is counted as kept out.", "यह एक अनुमान है: इसमें प्रति व्यक्ति प्रतिदिन लगभग 0.45 किलो कचरा माना गया है। केवल अवशेष से निपटाया गया कचरा ही बचा हुआ गिना जाता है।", "ଏହା ଏକ ଅନୁମାନ: ଏଥିରେ ପ୍ରତି ବ୍ୟକ୍ତି ପ୍ରତିଦିନ ପ୍ରାୟ 0.45 କିଲୋ ଅଳିଆ ଧରାଯାଇଛି। କେବଳ ଅବଶେଷ ମାଧ୍ୟମରେ ସମ୍ଭାଳାଯାଇଥିବା ଅଳିଆ ହିଁ ବଞ୍ଚିଥିବା ଗଣାଯାଏ।"]
+}

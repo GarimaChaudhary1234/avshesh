@@ -1,0 +1,78 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: avshesh
+      POSTGRES_USER: avshesh
+      POSTGRES_PASSWORD: avshesh
+    ports:
+      - "127.0.0.1:5433:5432"   # 5433 on host: 5432 is often taken by a local Postgres install; only this computer can connect
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U avshesh"]
+      interval: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]   # limits are short lived: no need to persist them
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: local
+      DB_URL: jdbc:postgresql://db:5432/avshesh
+      DB_USER: avshesh
+      DB_PASSWORD: avshesh
+      PHOTOS_DIR: /data/photos
+      # SCANNER=bedrock analyses photos with Amazon Bedrock (needs the AWS_* values below, see .env.example).
+      SCANNER: ${SCANNER:-mock}
+      # Local development only: the SMS code is returned by the API so no real phone is needed.
+      SMS_DEV_CODES: ${SMS_DEV_CODES:-true}
+      SMS_SENDER: ${SMS_SENDER:-log}
+      SMS_CLIENT_LIMIT_PER_HOUR: ${SMS_CLIENT_LIMIT_PER_HOUR:-20}
+      PHONE_VERIFICATION_REQUIRED: ${PHONE_VERIFICATION_REQUIRED:-false}
+      DEMO_RICH: ${DEMO_RICH:-true}
+      # JSON logs with the request id, ready for CloudWatch or any log search.
+      LOGGING_STRUCTURED_FORMAT_CONSOLE: ${LOG_FORMAT:-ecs}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}   # set to true behind HTTPS
+      LIMITER: ${LIMITER:-redis}
+      REDIS_HOST: redis
+      REDIS_HEALTH: "true"
+      REGISTER_LIMIT_PER_HOUR: ${REGISTER_LIMIT_PER_HOUR:-60}
+      SCAN_LIMIT_PER_HOUR: ${SCAN_LIMIT_PER_HOUR:-30}
+      GEO_PROVIDER: ${GEO_PROVIDER:-nominatim}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      BEDROCK_MODEL_ID: ${BEDROCK_MODEL_ID:-amazon.nova-lite-v1:0}
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
+      AWS_SESSION_TOKEN: ${AWS_SESSION_TOKEN:-}
+      # Browsers send an Origin header even through the nginx proxy; it must match the frontend URL.
+      CORS_ORIGINS: http://localhost:8088,http://127.0.0.1:8088
+      # Set JWT_SECRET in .env so logins survive a restart. If it is empty a random secret is used.
+      JWT_SECRET: ${JWT_SECRET:-}
+    volumes:
+      - photos:/data/photos
+    ports:
+      - "127.0.0.1:8080:8080"   # the app is reached through nginx on 8088; this is for local debugging only
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "8088:80"   # not 3000: that port is commonly used by other local dev servers
+
+volumes:
+  pgdata:
+  photos:

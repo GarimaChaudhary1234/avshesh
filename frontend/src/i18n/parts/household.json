@@ -1,0 +1,492 @@
+{
+  "household.wait": [
+    "Please wait…",
+    "कृपया प्रतीक्षा करें…",
+    "ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…"
+  ],
+  "household.home.inWard": [
+    "📍 You are in <b>{{ward}}</b>",
+    "📍 आप <b>{{ward}}</b> में हैं",
+    "📍 ଆପଣ <b>{{ward}}</b> ରେ ଅଛନ୍ତି"
+  ],
+  "household.home.thisMonth": [
+    "This month",
+    "इस महीने",
+    "ଏହି ମାସ"
+  ],
+  "household.home.earned": [
+    "You earned <b>{{amount}}</b>",
+    "आपने <b>{{amount}}</b> कमाए",
+    "ଆପଣ <b>{{amount}}</b> ଉପାର୍ଜନ କଲେ"
+  ],
+  "household.home.impact": [
+    "{{weight}} kept out of landfill · ~{{co2}} CO₂ avoided",
+    "{{weight}} कचरा लैंडफिल में जाने से बचा · ~{{co2}} CO₂ कम हुआ",
+    "{{weight}} ଅଳିଆ ଲ୍ୟାଣ୍ଡଫିଲକୁ ଯିବାରୁ ବଞ୍ଚିଲା · ~{{co2}} CO₂ କମିଲା"
+  ],
+  "household.home.scan": [
+    "📸 Scan Waste",
+    "📸 कचरा स्कैन करें",
+    "📸 ଅଳିଆ ସ୍କାନ କରନ୍ତୁ"
+  ],
+  "household.home.poolTitle": [
+    "Your neighbourhood pool",
+    "आपके मोहल्ले का पूल",
+    "ଆପଣଙ୍କ ମହଲ୍ଲାର ପୁଲ"
+  ],
+  "household.home.noPool": [
+    "No pool yet. Scan some waste and create a listing, and your Mohalla Pool is created automatically.",
+    "अभी कोई पूल नहीं है। कचरा स्कैन करके लिस्टिंग बनाएँ, आपका मोहल्ला पूल अपने आप बन जाएगा।",
+    "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପୁଲ ନାହିଁ। ଅଳିଆ ସ୍କାନ କରି ଲିଷ୍ଟିଂ ତିଆରି କରନ୍ତୁ, ଆପଣଙ୍କ ମହଲ୍ଲା ପୁଲ ନିଜେ ତିଆରି ହୋଇଯିବ।"
+  ],
+  "household.scan.title": [
+    "📸 Scan Waste",
+    "📸 कचरा स्कैन करें",
+    "📸 ଅଳିଆ ସ୍କାନ କରନ୍ତୁ"
+  ],
+  "household.scan.photoAlt": [
+    "Photo of the waste",
+    "कचरे की फ़ोटो",
+    "ଅଳିଆର ଫଟୋ"
+  ],
+  "household.scan.takePhoto": [
+    "Take a photo or upload one",
+    "फ़ोटो खींचें या अपलोड करें",
+    "ଫଟୋ ଉଠାନ୍ତୁ କିମ୍ବା ଅପଲୋଡ କରନ୍ତୁ"
+  ],
+  "household.scan.demoLabel": [
+    "Demo mode: which item is this?",
+    "डेमो मोड: यह कौन सी चीज़ है?",
+    "ଡେମୋ ମୋଡ: ଏହା କେଉଁ ଜିନିଷ?"
+  ],
+  "household.scan.demoHint": [
+    "The AI scanner is not connected, so you name the item. Connect Amazon Bedrock to detect it from the photo.",
+    "AI स्कैनर जुड़ा नहीं है, इसलिए चीज़ का नाम आप चुनें। फ़ोटो से पहचान के लिए Amazon Bedrock जोड़ें।",
+    "AI ସ୍କାନର ଯୋଡ଼ା ହୋଇନାହିଁ, ତେଣୁ ଜିନିଷର ନାମ ଆପଣ ବାଛନ୍ତୁ। ଫଟୋରୁ ଚିହ୍ନିବା ପାଇଁ Amazon Bedrock ଯୋଡ଼ନ୍ତୁ।"
+  ],
+  "household.scan.selectItem": [
+    "Select an item…",
+    "कोई चीज़ चुनें…",
+    "ଏକ ଜିନିଷ ବାଛନ୍ତୁ…"
+  ],
+  "household.scan.analysing": [
+    "Analysing…",
+    "जाँच हो रही है…",
+    "ଯାଞ୍ଚ ଚାଲିଛି…"
+  ],
+  "household.scan.lookUp": [
+    "Look up item",
+    "चीज़ खोजें",
+    "ଜିନିଷ ଖୋଜନ୍ତୁ"
+  ],
+  "household.scan.identify": [
+    "🤖 Identify with AI",
+    "🤖 AI से पहचानें",
+    "🤖 AI ଦ୍ୱାରା ଚିହ୍ନନ୍ତୁ"
+  ],
+  "household.scan.hazardTitle": [
+    "⚠️ Hazardous: do not give this to a scrap dealer",
+    "⚠️ खतरनाक: इसे कबाड़ी को न दें",
+    "⚠️ ବିପଜ୍ଜନକ: ଏହାକୁ ଅଳିଆ ବ୍ୟବସାୟୀଙ୍କୁ ଦିଅନ୍ତୁ ନାହିଁ"
+  ],
+  "household.scan.hazardHandIn": [
+    "Hand it in at one of the authorised drop-off points below.",
+    "इसे नीचे दिए गए किसी अधिकृत जमा केंद्र पर दें।",
+    "ଏହାକୁ ତଳେ ଦିଆଯାଇଥିବା ଯେକୌଣସି ଅନୁମୋଦିତ ଜମା କେନ୍ଦ୍ରରେ ଦିଅନ୍ତୁ।"
+  ],
+  "household.scan.general": [
+    "General waste",
+    "सामान्य कचरा",
+    "ସାଧାରଣ ଅଳିଆ"
+  ],
+  "household.scan.nobodyBuys": [
+    "🗑️ Nobody buys this, so it cannot go into a pool. The municipal corporation collects it.",
+    "🗑️ इसे कोई नहीं खरीदता, इसलिए यह पूल में नहीं जा सकता। इसे नगर निगम उठाता है।",
+    "🗑️ ଏହାକୁ କେହି କିଣନ୍ତି ନାହିଁ, ତେଣୁ ଏହା ପୁଲରେ ଯାଇପାରିବ ନାହିଁ। ପୌରସଂସ୍ଥା ଏହାକୁ ସଂଗ୍ରହ କରେ।"
+  ],
+  "household.scan.wet": [
+    "Wet waste",
+    "गीला कचरा",
+    "ଓଦା ଅଳିଆ"
+  ],
+  "household.scan.dry": [
+    "Dry waste",
+    "सूखा कचरा",
+    "ଶୁଖିଲା ଅଳିଆ"
+  ],
+  "household.scan.market": [
+    "💰 Market estimate: <b>{{min}}–{{max}}/kg</b>",
+    "💰 बाज़ार का अनुमान: <b>{{min}}–{{max}}/किलो</b>",
+    "💰 ବଜାର ଅନୁମାନ: <b>{{min}}–{{max}}/କିଲୋ</b>"
+  ],
+  "household.scan.liveRate": [
+    "📍 Live rate in your area:",
+    "📍 आपके इलाके का आज का भाव:",
+    "📍 ଆପଣଙ୍କ ଅଞ୍ଚଳର ଆଜିର ଦର:"
+  ],
+  "household.scan.rateLine": [
+    "{{rate}}/kg ({{collector}})",
+    "{{rate}}/किलो ({{collector}})",
+    "{{rate}}/କିଲୋ ({{collector}})"
+  ],
+  "household.scan.noCollector": [
+    "no verified collector in your area yet",
+    "आपके इलाके में अभी कोई सत्यापित संग्राहक नहीं है",
+    "ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଯାଞ୍ଚିତ ସଂଗ୍ରହକାରୀ ନାହାଁନ୍ତି"
+  ],
+  "household.scan.tip": [
+    "♻️ Tip: {{tip}}",
+    "♻️ सुझाव: {{tip}}",
+    "♻️ ପରାମର୍ଶ: {{tip}}"
+  ],
+  "household.scan.create": [
+    "📝 Create listing",
+    "📝 लिस्टिंग बनाएँ",
+    "📝 ଲିଷ୍ଟିଂ ତିଆରି କରନ୍ତୁ"
+  ],
+  "household.verify.needed": [
+    "Verify your phone number to continue",
+    "आगे बढ़ने के लिए अपना फ़ोन नंबर सत्यापित करें",
+    "ଆଗକୁ ବଢ଼ିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନ ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ"
+  ],
+  "household.verify.link": [
+    "Verify now",
+    "अभी सत्यापित करें",
+    "ଏବେ ଯାଞ୍ଚ କରନ୍ତୁ"
+  ],
+  "household.new.poolTitle": [
+    "🏘️ Join the Mohalla Pool",
+    "🏘️ मोहल्ला पूल से जुड़ें",
+    "🏘️ ମହଲ୍ଲା ପୁଲରେ ଯୋଗ ଦିଅନ୍ତୁ"
+  ],
+  "household.new.poolNote": [
+    "Recommended: one pickup together with your neighbours, better rates",
+    "सुझाव: पड़ोसियों के साथ एक ही बार में उठान, बेहतर दाम",
+    "ସୁପାରିଶ: ପଡ଼ୋଶୀମାନଙ୍କ ସହ ଏକାଥରକେ ସଂଗ୍ରହ, ଭଲ ଦାମ"
+  ],
+  "household.new.selfTitle": [
+    "🚶 I will drop it off myself",
+    "🚶 मैं खुद जमा करूँगा/करूँगी",
+    "🚶 ମୁଁ ନିଜେ ଦେଇଆସିବି"
+  ],
+  "household.new.selfNote": [
+    "You take it to a recycling center yourself",
+    "आप इसे खुद रीसायकल केंद्र ले जाते हैं",
+    "ଆପଣ ନିଜେ ଏହାକୁ ରିସାଇକଲ କେନ୍ଦ୍ରକୁ ନିଅନ୍ତି"
+  ],
+  "household.new.title": [
+    "📝 Create listing",
+    "📝 लिस्टिंग बनाएँ",
+    "📝 ଲିଷ୍ଟିଂ ତିଆରି କରନ୍ତୁ"
+  ],
+  "household.new.weight": [
+    "Weight (approximate, in kg)",
+    "वज़न (अंदाज़न, किलो में)",
+    "ଓଜନ (ଅନୁମାନିକ, କିଲୋରେ)"
+  ],
+  "household.new.estimated": [
+    "Estimated earnings: <b>{{amount}}</b>",
+    "अनुमानित कमाई: <b>{{amount}}</b>",
+    "ଅନୁମାନିକ ଆୟ: <b>{{amount}}</b>"
+  ],
+  "household.new.rateAt": [
+    "at {{rate}}/kg",
+    "{{rate}}/किलो के हिसाब से",
+    "{{rate}}/କିଲୋ ହିସାବରେ"
+  ],
+  "household.new.rateAtAi": [
+    "at {{rate}}/kg (AI estimate, no live rate yet)",
+    "{{rate}}/किलो के हिसाब से (AI का अनुमान, अभी आज का भाव नहीं)",
+    "{{rate}}/କିଲୋ ହିସାବରେ (AI ଅନୁମାନ, ଏପର୍ଯ୍ୟନ୍ତ ଆଜିର ଦର ନାହିଁ)"
+  ],
+  "household.new.readyFrom": [
+    "Ready from",
+    "कब से तैयार",
+    "କେବେ ଠାରୁ ପ୍ରସ୍ତୁତ"
+  ],
+  "household.new.handOver": [
+    "How will you hand it over?",
+    "आप इसे कैसे देंगे?",
+    "ଆପଣ ଏହାକୁ କିପରି ଦେବେ?"
+  ],
+  "household.new.submit": [
+    "Submit listing",
+    "लिस्टिंग जमा करें",
+    "ଲିଷ୍ଟିଂ ଦାଖଲ କରନ୍ତୁ"
+  ],
+  "household.new.offlineSaved": [
+    "You are offline. Your listing is saved on this phone and will be sent when you are back online.",
+    "आप ऑफ़लाइन हैं। आपकी लिस्टिंग इस फ़ोन में सुरक्षित है और इंटरनेट आने पर भेज दी जाएगी।",
+    "ଆପଣ ଅଫଲାଇନ ଅଛନ୍ତି। ଆପଣଙ୍କ ଲିଷ୍ଟିଂ ଏହି ଫୋନରେ ସଂରକ୍ଷିତ ଅଛି ଏବଂ ଇଣ୍ଟରନେଟ ଆସିଲେ ପଠାଯିବ।"
+  ],
+  "household.my.title": [
+    "📝 My Listings",
+    "📝 मेरी लिस्टिंग",
+    "📝 ମୋ ଲିଷ୍ଟିଂ"
+  ],
+  "household.my.none": [
+    "No listings yet.",
+    "अभी कोई लिस्टिंग नहीं है।",
+    "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଲିଷ୍ଟିଂ ନାହିଁ।"
+  ],
+  "household.my.summary": [
+    "{{weight}} · est. {{earning}} · {{mode}}",
+    "{{weight}} · अनुमान {{earning}} · {{mode}}",
+    "{{weight}} · ଅନୁମାନ {{earning}} · {{mode}}"
+  ],
+  "household.my.modePool": [
+    "Mohalla Pool",
+    "मोहल्ला पूल",
+    "ମହଲ୍ଲା ପୁଲ"
+  ],
+  "household.my.modeSelf": [
+    "Self drop-off",
+    "खुद जमा करना",
+    "ନିଜେ ଦେଇଆସିବା"
+  ],
+  "household.my.confirmed": [
+    "✅ Pickup confirmed! <b>{{date}}</b>",
+    "✅ उठान पक्का हुआ! <b>{{date}}</b>",
+    "✅ ସଂଗ୍ରହ ନିଶ୍ଚିତ ହେଲା! <b>{{date}}</b>"
+  ],
+  "household.my.weighed": [
+    "Weighed {{weight}} · you received <b>{{amount}}</b>",
+    "वज़न {{weight}} · आपको <b>{{amount}}</b> मिले",
+    "ଓଜନ {{weight}} · ଆପଣ <b>{{amount}}</b> ପାଇଲେ"
+  ],
+  "household.my.municipalTitle": [
+    "🏛️ Municipal pickup requests",
+    "🏛️ नगर निगम उठान के अनुरोध",
+    "🏛️ ପୌରସଂସ୍ଥା ସଂଗ୍ରହ ଅନୁରୋଧ"
+  ],
+  "household.my.collectionOn": [
+    "Collection on <b>{{date}}</b>",
+    "उठान की तारीख <b>{{date}}</b>",
+    "ସଂଗ୍ରହ ତାରିଖ <b>{{date}}</b>"
+  ],
+  "household.my.collectionBy": [
+    "Collection on <b>{{date}}</b> by <b>{{staff}}</b>",
+    "उठान की तारीख <b>{{date}}</b>, <b>{{staff}}</b> द्वारा",
+    "ସଂଗ୍ରହ ତାରିଖ <b>{{date}}</b>, <b>{{staff}}</b> ଙ୍କ ଦ୍ୱାରା"
+  ],
+  "household.status.OPEN": [
+    "Waiting in pool",
+    "पूल में इंतज़ार",
+    "ପୁଲରେ ଅପେକ୍ଷା"
+  ],
+  "household.status.SCHEDULED": [
+    "Pickup confirmed",
+    "उठान पक्का",
+    "ସଂଗ୍ରହ ନିଶ୍ଚିତ"
+  ],
+  "household.status.DONE": [
+    "Completed",
+    "पूरा हुआ",
+    "ସମ୍ପୂର୍ଣ୍ଣ"
+  ],
+  "household.request.OPEN": [
+    "Waiting for the municipal corporation",
+    "नगर निगम के जवाब का इंतज़ार",
+    "ପୌରସଂସ୍ଥାର ଉତ୍ତର ଅପେକ୍ଷା"
+  ],
+  "household.request.SCHEDULED": [
+    "Pickup scheduled",
+    "उठान तय हुआ",
+    "ସଂଗ୍ରହ ନିର୍ଦ୍ଧାରିତ"
+  ],
+  "household.request.COLLECTED": [
+    "Collected",
+    "उठा लिया गया",
+    "ସଂଗୃହୀତ"
+  ],
+  "household.request.REJECTED": [
+    "Not accepted",
+    "स्वीकार नहीं हुआ",
+    "ଗ୍ରହଣ ହେଲା ନାହିଁ"
+  ],
+  "household.payment.ask": [
+    "Did you receive {{amount}}?",
+    "क्या आपको {{amount}} मिले?",
+    "ଆପଣ {{amount}} ପାଇଲେ କି?"
+  ],
+  "household.payment.yes": [
+    "Yes, received",
+    "हाँ, मिल गए",
+    "ହଁ, ପାଇଲି"
+  ],
+  "household.payment.no": [
+    "No, I did not",
+    "नहीं, नहीं मिले",
+    "ନା, ପାଇନାହିଁ"
+  ],
+  "household.payment.notePlaceholder": [
+    "Tell us briefly what happened (required)",
+    "संक्षेप में बताएँ क्या हुआ (ज़रूरी)",
+    "ସଂକ୍ଷେପରେ କୁହନ୍ତୁ କ'ଣ ହେଲା (ଆବଶ୍ୟକ)"
+  ],
+  "household.payment.send": [
+    "Send",
+    "भेजें",
+    "ପଠାନ୍ତୁ"
+  ],
+  "household.payment.CONFIRMED": [
+    "Payment confirmed",
+    "भुगतान की पुष्टि हुई",
+    "ଦେୟ ନିଶ୍ଚିତ ହେଲା"
+  ],
+  "household.payment.DISPUTED": [
+    "Payment disputed - the municipal officer will review",
+    "भुगतान पर विवाद - नगर निगम अधिकारी जाँच करेंगे",
+    "ଦେୟ ବିବାଦ - ପୌର ଅଧିକାରୀ ଯାଞ୍ଚ କରିବେ"
+  ],
+  "household.payment.RESOLVED": [
+    "Dispute resolved",
+    "विवाद सुलझ गया",
+    "ବିବାଦ ସମାଧାନ ହେଲା"
+  ],
+  "household.rate.done": [
+    "You rated this pickup {{stars}}",
+    "आपने इस उठान को {{stars}} रेटिंग दी",
+    "ଆପଣ ଏହି ସଂଗ୍ରହକୁ {{stars}} ରେଟିଂ ଦେଇଛନ୍ତି"
+  ],
+  "household.rate.doneComment": [
+    "You rated this pickup {{stars}} · “{{comment}}”",
+    "आपने इस उठान को {{stars}} रेटिंग दी · “{{comment}}”",
+    "ଆପଣ ଏହି ସଂଗ୍ରହକୁ {{stars}} ରେଟିଂ ଦେଇଛନ୍ତି · “{{comment}}”"
+  ],
+  "household.rate.ask": [
+    "How was the pickup?",
+    "उठान कैसा रहा?",
+    "ସଂଗ୍ରହ କେମିତି ଥିଲା?"
+  ],
+  "household.rate.placeholder": [
+    "Add a comment (optional)",
+    "टिप्पणी जोड़ें (वैकल्पिक)",
+    "ମନ୍ତବ୍ୟ ଯୋଡ଼ନ୍ତୁ (ଇଚ୍ଛାଧୀନ)"
+  ],
+  "household.rate.submit": [
+    "Submit rating",
+    "रेटिंग जमा करें",
+    "ରେଟିଂ ଦାଖଲ କରନ୍ତୁ"
+  ],
+  "pool.status.FILLING": [
+    "Filling up",
+    "भर रहा है",
+    "ଭର୍ତ୍ତି ହେଉଛି"
+  ],
+  "pool.status.READY": [
+    "Ready for pickup",
+    "उठान के लिए तैयार",
+    "ସଂଗ୍ରହ ପାଇଁ ପ୍ରସ୍ତୁତ"
+  ],
+  "pool.status.ACCEPTED": [
+    "Pickup confirmed",
+    "उठान पक्का",
+    "ସଂଗ୍ରହ ନିଶ୍ଚିତ"
+  ],
+  "pool.percentFull": [
+    "{{percent}}% full",
+    "{{percent}}% भरा",
+    "{{percent}}% ଭର୍ତ୍ତି"
+  ],
+  "pool.joinedOne": [
+    "1 household joined · {{weight}}",
+    "1 परिवार जुड़ा · {{weight}}",
+    "1 ପରିବାର ଯୋଗ ଦେଲେ · {{weight}}"
+  ],
+  "pool.joinedMany": [
+    "{{households}} households joined · {{weight}}",
+    "{{households}} परिवार जुड़े · {{weight}}",
+    "{{households}} ପରିବାର ଯୋଗ ଦେଲେ · {{weight}}"
+  ],
+  "pool.needMore": [
+    "About <b>{{weight}}</b> more and the pickup is confirmed. Tell your neighbours!",
+    "करीब <b>{{weight}}</b> और हो जाए तो उठान पक्का। अपने पड़ोसियों को बताएँ!",
+    "ପ୍ରାୟ <b>{{weight}}</b> ଆହୁରି ହେଲେ ସଂଗ୍ରହ ନିଶ୍ଚିତ। ଆପଣଙ୍କ ପଡ଼ୋଶୀଙ୍କୁ କୁହନ୍ତୁ!"
+  ],
+  "pool.ready": [
+    "The pool is ready. You will be notified as soon as a collector accepts it.",
+    "पूल तैयार है। जैसे ही कोई संग्राहक इसे स्वीकार करेगा, आपको सूचना मिलेगी।",
+    "ପୁଲ ପ୍ରସ୍ତୁତ ଅଛି। କୌଣସି ସଂଗ୍ରହକାରୀ ଗ୍ରହଣ କରିବା ମାତ୍ରେ ଆପଣଙ୍କୁ ଜଣାଯିବ।"
+  ],
+  "municipalForm.sent": [
+    "✅ Request sent to the municipal corporation. Track it under <go>My Listings</go>.",
+    "✅ अनुरोध नगर निगम को भेज दिया गया। इसे <go>मेरी लिस्टिंग</go> में देखें।",
+    "✅ ଅନୁରୋଧ ପୌରସଂସ୍ଥାକୁ ପଠାଗଲା। ଏହାକୁ <go>ମୋ ଲିଷ୍ଟିଂ</go> ରେ ଦେଖନ୍ତୁ।"
+  ],
+  "municipalForm.weight": [
+    "Weight (approximate, in kg)",
+    "वज़न (अंदाज़न, किलो में)",
+    "ଓଜନ (ଅନୁମାନିକ, କିଲୋରେ)"
+  ],
+  "municipalForm.note": [
+    "Note for the collector (optional)",
+    "संग्राहक के लिए संदेश (वैकल्पिक)",
+    "ସଂଗ୍ରହକାରୀଙ୍କ ପାଇଁ ଟିପ୍ପଣୀ (ଇଚ୍ଛାଧୀନ)"
+  ],
+  "municipalForm.wait": [
+    "Please wait…",
+    "कृपया प्रतीक्षा करें…",
+    "ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…"
+  ],
+  "municipalForm.submit": [
+    "🏛️ Request municipal pickup",
+    "🏛️ नगर निगम से उठान माँगें",
+    "🏛️ ପୌରସଂସ୍ଥାଠାରୁ ସଂଗ୍ରହ ମାଗନ୍ତୁ"
+  ],
+  "dropoff.finding": [
+    "Finding drop-off points near you…",
+    "आपके पास के जमा केंद्र खोजे जा रहे हैं…",
+    "ଆପଣଙ୍କ ପାଖ ଜମା କେନ୍ଦ୍ର ଖୋଜାଯାଉଛି…"
+  ],
+  "dropoff.none": [
+    "No drop-off point has been listed for your area yet. Please contact your municipal corporation.",
+    "आपके इलाके के लिए अभी कोई जमा केंद्र नहीं जुड़ा है। कृपया अपने नगर निगम से संपर्क करें।",
+    "ଆପଣଙ୍କ ଅଞ୍ଚଳ ପାଇଁ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଜମା କେନ୍ଦ୍ର ସୂଚୀବଦ୍ଧ ହୋଇନାହିଁ। ଦୟାକରି ଆପଣଙ୍କ ପୌରସଂସ୍ଥାକୁ ଯୋଗାଯୋଗ କରନ୍ତୁ।"
+  ],
+  "dropoff.title": [
+    "📍 Nearest drop-off points",
+    "📍 सबसे पास के जमा केंद्र",
+    "📍 ସବୁଠୁ ପାଖ ଜମା କେନ୍ଦ୍ର"
+  ],
+  "dropoff.distance": [
+    "{{km}} km",
+    "{{km}} किमी",
+    "{{km}} କିମି"
+  ],
+  "dropoff.accepts": [
+    "Accepts: {{items}}",
+    "स्वीकार करते हैं: {{items}}",
+    "ଗ୍ରହଣ କରନ୍ତି: {{items}}"
+  ],
+  "stars.none": [
+    "No ratings yet",
+    "अभी कोई रेटिंग नहीं",
+    "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ରେଟିଂ ନାହିଁ"
+  ],
+  "stars.summary": [
+    "{{value}} out of 5 stars from {{ratings}} ratings",
+    "{{ratings}} रेटिंग में 5 में से {{value}} सितारे",
+    "{{ratings}} ଟି ରେଟିଂରେ 5 ରୁ {{value}} ତାରା"
+  ],
+  "stars.rating": [
+    "Rating",
+    "रेटिंग",
+    "ରେଟିଂ"
+  ],
+  "stars.one": [
+    "1 star",
+    "1 सितारा",
+    "1 ତାରା"
+  ],
+  "stars.many": [
+    "{{n}} stars",
+    "{{n}} सितारे",
+    "{{n}} ତାରା"
+  ],
+  "pool.inside": [
+    "What is in this pool",
+    "इस पूल में क्या है",
+    "ଏହି ପୁଲରେ କ’ଣ ଅଛି"
+  ]
+}

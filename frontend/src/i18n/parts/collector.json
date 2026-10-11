@@ -1,0 +1,557 @@
+{
+  "banner.phone.title": [
+    "Phone number not verified",
+    "फ़ोन नंबर सत्यापित नहीं है",
+    "ଫୋନ ନମ୍ବର ଯାଞ୍ଚ ହୋଇନାହିଁ"
+  ],
+  "banner.phone.link": [
+    "Verify your phone number to continue",
+    "आगे बढ़ने के लिए अपना फ़ोन नंबर सत्यापित करें",
+    "ଆଗକୁ ବଢ଼ିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନ ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ"
+  ],
+  "banner.pending.title": [
+    "Waiting for municipal verification",
+    "नगर निगम के सत्यापन का इंतज़ार है",
+    "ମ୍ୟୁନିସିପାଲ ଯାଞ୍ଚ ପାଇଁ ଅପେକ୍ଷା"
+  ],
+  "banner.pending.body": [
+    "You can finish your profile and rate card, but you will not get pools until the municipal corporation verifies you.",
+    "आप अपनी प्रोफ़ाइल और रेट कार्ड पूरा कर सकते हैं, लेकिन नगर निगम के सत्यापन तक आपको कोई पूल नहीं मिलेगा।",
+    "ଆପଣ ନିଜ ପ୍ରୋଫାଇଲ ଓ ରେଟ କାର୍ଡ ସମ୍ପୂର୍ଣ୍ଣ କରିପାରିବେ, କିନ୍ତୁ ମ୍ୟୁନିସିପାଲ କର୍ପୋରେସନ ଯାଞ୍ଚ ନକରିବା ପର୍ଯ୍ୟନ୍ତ ଆପଣ କୌଣସି ପୁଲ ପାଇବେ ନାହିଁ।"
+  ],
+  "banner.rejected.title": [
+    "Your application was not approved",
+    "आपका आवेदन स्वीकृत नहीं हुआ",
+    "ଆପଣଙ୍କ ଆବେଦନ ଅନୁମୋଦିତ ହୋଇନାହିଁ"
+  ],
+  "banner.rejected.body": [
+    "Please contact the municipal corporation. You cannot accept pools until you are verified.",
+    "कृपया नगर निगम से संपर्क करें। सत्यापन होने तक आप पूल स्वीकार नहीं कर सकते।",
+    "ଦୟାକରି ମ୍ୟୁନିସିପାଲ କର୍ପୋରେସନ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ। ଯାଞ୍ଚ ନହେବା ପର୍ଯ୍ୟନ୍ତ ଆପଣ ପୁଲ ଗ୍ରହଣ କରିପାରିବେ ନାହିଁ।"
+  ],
+  "banner.paused.title": [
+    "You are paused",
+    "आपकी सेवा रुकी हुई है",
+    "ଆପଣଙ୍କ ସେବା ବନ୍ଦ ଅଛି"
+  ],
+  "banner.paused.before": [
+    "Households are not matched to you right now. Turn on",
+    "अभी आपसे कोई घर नहीं जोड़ा जा रहा। चालू करें",
+    "ବର୍ତ୍ତମାନ ଆପଣଙ୍କ ସହ କୌଣସି ଘର ଯୋଡ଼ାଯାଉନାହିଁ। ଚାଲୁ କରନ୍ତୁ"
+  ],
+  "banner.paused.setting": [
+    "Accepting pickups",
+    "पिकअप स्वीकार करना",
+    "ପିକଅପ ଗ୍ରହଣ"
+  ],
+  "banner.paused.middle": [
+    "in your",
+    "अपनी",
+    "ଆପଣଙ୍କ"
+  ],
+  "banner.paused.profile": [
+    "Profile",
+    "प्रोफ़ाइल",
+    "ପ୍ରୋଫାଇଲ"
+  ],
+  "banner.paused.after": [
+    "to start again.",
+    "में, दोबारा शुरू करने के लिए।",
+    "ରେ, ପୁଣି ଆରମ୍ଭ କରିବା ପାଇଁ।"
+  ],
+  "collector.common.wait": [
+    "Please wait…",
+    "कृपया रुकें…",
+    "ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…"
+  ],
+  "collector.common.cancel": [
+    "Cancel",
+    "रद्द करें",
+    "ବାତିଲ"
+  ],
+  "collector.dashboard.title": [
+    "Pools",
+    "पूल",
+    "ପୁଲ"
+  ],
+  "collector.dashboard.intro": [
+    "All open pools, ready ones first. Accept a ready pool to schedule the pickup.",
+    "सभी खुले पूल, तैयार वाले पहले। पिकअप तय करने के लिए तैयार पूल स्वीकार करें।",
+    "ସମସ୍ତ ଖୋଲା ପୁଲ, ପ୍ରସ୍ତୁତ ଥିବା ପ୍ରଥମେ। ପିକଅପ ଠିକ୍ କରିବା ପାଇଁ ପ୍ରସ୍ତୁତ ପୁଲ ଗ୍ରହଣ କରନ୍ତୁ।"
+  ],
+  "collector.dashboard.empty": [
+    "There is no open pool of your waste type yet.",
+    "आपके कचरे के प्रकार का अभी कोई खुला पूल नहीं है।",
+    "ଆପଣଙ୍କ ଅଳିଆ ପ୍ରକାରର ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଖୋଲା ପୁଲ ନାହିଁ।"
+  ],
+  "collector.dashboard.emptyHint": [
+    "Check your service area and rate card in",
+    "अपना सेवा क्षेत्र और रेट कार्ड यहाँ देखें:",
+    "ଆପଣଙ୍କ ସେବା ଅଞ୍ଚଳ ଓ ରେଟ କାର୍ଡ ଏଠାରେ ଦେଖନ୍ତୁ:"
+  ],
+  "collector.dashboard.profileLink": [
+    "Profile",
+    "प्रोफ़ाइल",
+    "ପ୍ରୋଫାଇଲ"
+  ],
+  "collector.pool.ready": [
+    "Ready",
+    "तैयार",
+    "ପ୍ରସ୍ତୁତ"
+  ],
+  "collector.pool.filling": [
+    "Filling",
+    "भर रहा है",
+    "ଭରୁଛି"
+  ],
+  "collector.pool.distance": [
+    "Distance",
+    "दूरी",
+    "ଦୂରତା"
+  ],
+  "collector.pool.km": [
+    "{{value}} km",
+    "{{value}} किमी",
+    "{{value}} କିମି"
+  ],
+  "collector.pool.load": [
+    "Load",
+    "वज़न",
+    "ଓଜନ"
+  ],
+  "collector.pool.profit": [
+    "Profit",
+    "मुनाफ़ा",
+    "ଲାଭ"
+  ],
+  "collector.pool.household": [
+    "household",
+    "घर",
+    "ଘର"
+  ],
+  "collector.pool.households": [
+    "households",
+    "घर",
+    "ଘର"
+  ],
+  "collector.pool.profitPerKm": [
+    "{{amount}} profit/km",
+    "{{amount}} मुनाफ़ा/किमी",
+    "{{amount}} ଲାଭ/କିମି"
+  ],
+  "collector.pool.tooHeavy": [
+    "Too heavy for your vehicle (capacity {{kg}})",
+    "आपके वाहन के लिए बहुत भारी (क्षमता {{kg}})",
+    "ଆପଣଙ୍କ ଗାଡ଼ି ପାଇଁ ବହୁତ ଭାରି (କ୍ଷମତା {{kg}})"
+  ],
+  "collector.pool.accept": [
+    "Accept",
+    "स्वीकार करें",
+    "ଗ୍ରହଣ କରନ୍ତୁ"
+  ],
+  "collector.accept.intro": [
+    "Choose the pickup date and time. Every household will be notified.",
+    "पिकअप की तारीख़ और समय चुनें। हर घर को सूचना मिल जाएगी।",
+    "ପିକଅପ ତାରିଖ ଓ ସମୟ ବାଛନ୍ତୁ। ପ୍ରତ୍ୟେକ ଘରକୁ ସୂଚନା ଦିଆଯିବ।"
+  ],
+  "collector.accept.start": [
+    "Start",
+    "शुरू",
+    "ଆରମ୍ଭ"
+  ],
+  "collector.accept.end": [
+    "End",
+    "समाप्त",
+    "ଶେଷ"
+  ],
+  "collector.accept.confirm": [
+    "Confirm pickup",
+    "पिकअप पक्का करें",
+    "ପିକଅପ ନିଶ୍ଚିତ କରନ୍ତୁ"
+  ],
+  "collector.earnings.title": [
+    "Earnings",
+    "कमाई",
+    "ଆୟ"
+  ],
+  "collector.earnings.period": [
+    "Last {{days}} days (completed pickups)",
+    "पिछले {{days}} दिन (पूरे हुए पिकअप)",
+    "ଗତ {{days}} ଦିନ (ସମ୍ପୂର୍ଣ୍ଣ ପିକଅପ)"
+  ],
+  "collector.earnings.pickupsCount": [
+    "{{n}} pickups",
+    "{{n}} पिकअप",
+    "{{n}} ପିକଅପ"
+  ],
+  "collector.earnings.profitAmount": [
+    "{{amount}} profit",
+    "{{amount}} मुनाफ़ा",
+    "{{amount}} ଲାଭ"
+  ],
+  "collector.earnings.pickups": [
+    "Pickups",
+    "पिकअप",
+    "ପିକଅପ"
+  ],
+  "collector.earnings.collected": [
+    "Collected",
+    "इकट्ठा किया",
+    "ସଂଗ୍ରହ"
+  ],
+  "collector.earnings.profit": [
+    "Profit",
+    "मुनाफ़ा",
+    "ଲାଭ"
+  ],
+  "collector.earnings.paid": [
+    "Paid to households: {{amount}}",
+    "घरों को दिया गया: {{amount}}",
+    "ଘରଗୁଡ଼ିକୁ ଦିଆଗଲା: {{amount}}"
+  ],
+  "collector.earnings.compost": [
+    "This week: {{wet}} of wet waste collected, ~{{compost}} of compost made",
+    "इस हफ़्ते: {{wet}} गीला कचरा इकट्ठा हुआ, लगभग {{compost}} कंपोस्ट बना",
+    "ଏହି ସପ୍ତାହ: {{wet}} ଓଦା ଆବର୍ଜନା ସଂଗ୍ରହ ହେଲା, ପ୍ରାୟ {{compost}} କମ୍ପୋଷ୍ଟ ତିଆରି ହେଲା"
+  ],
+  "collector.pickups.title": [
+    "Pickup route",
+    "पिकअप का रास्ता",
+    "ପିକଅପ ରୁଟ"
+  ],
+  "collector.pickups.empty": [
+    "You have not accepted any pickups yet.",
+    "आपने अभी तक कोई पिकअप स्वीकार नहीं किया है।",
+    "ଆପଣ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପିକଅପ ଗ୍ରହଣ କରିନାହାନ୍ତି।"
+  ],
+  "collector.pickups.completed": [
+    "Completed",
+    "पूरा हुआ",
+    "ସମ୍ପୂର୍ଣ୍ଣ"
+  ],
+  "collector.pickups.inProgress": [
+    "In progress",
+    "जारी है",
+    "ଚାଲିଛି"
+  ],
+  "collector.stop.about": [
+    "about {{kg}}",
+    "लगभग {{kg}}",
+    "ପ୍ରାୟ {{kg}}"
+  ],
+  "collector.stop.collect": [
+    "Collect",
+    "इकट्ठा करें",
+    "ସଂଗ୍ରହ କରନ୍ତୁ"
+  ],
+  "collector.stop.weight": [
+    "Actual weight (kg)",
+    "असली वज़न (किग्रा)",
+    "ପ୍ରକୃତ ଓଜନ (କିଗ୍ରା)"
+  ],
+  "collector.stop.payment": [
+    "Payment",
+    "भुगतान",
+    "ଦେୟ"
+  ],
+  "collector.stop.cash": [
+    "Cash",
+    "नकद",
+    "ନଗଦ"
+  ],
+  "collector.stop.upi": [
+    "UPI",
+    "यूपीआई",
+    "ୟୁପିଆଇ"
+  ],
+  "collector.stop.done": [
+    "Done",
+    "हो गया",
+    "ହୋଇଗଲା"
+  ],
+  "collector.payment.pending": [
+    "Waiting for household to confirm payment",
+    "घर द्वारा भुगतान की पुष्टि का इंतज़ार है",
+    "ଘର ଦ୍ୱାରା ଦେୟ ନିଶ୍ଚିତ ହେବାକୁ ଅପେକ୍ଷା"
+  ],
+  "collector.payment.confirmed": [
+    "Payment confirmed by household",
+    "घर ने भुगतान की पुष्टि कर दी",
+    "ଘର ଦ୍ୱାରା ଦେୟ ନିଶ୍ଚିତ ହୋଇଛି"
+  ],
+  "collector.payment.disputed": [
+    "Household disputes this payment",
+    "घर इस भुगतान पर आपत्ति कर रहा है",
+    "ଘର ଏହି ଦେୟ ଉପରେ ଆପତ୍ତି କରୁଛି"
+  ],
+  "collector.payment.resolved": [
+    "Dispute resolved by municipal officer",
+    "नगर निगम अधिकारी ने विवाद सुलझा दिया",
+    "ମ୍ୟୁନିସିପାଲ ଅଧିକାରୀ ବିବାଦର ସମାଧାନ କରିଛନ୍ତି"
+  ],
+  "collector.vehicle.CYCLE_RICKSHAW": [
+    "Cycle rickshaw",
+    "साइकिल रिक्शा",
+    "ସାଇକେଲ ରିକ୍ସା"
+  ],
+  "collector.vehicle.E_RICKSHAW": [
+    "E-rickshaw",
+    "ई-रिक्शा",
+    "ଇ-ରିକ୍ସା"
+  ],
+  "collector.vehicle.AUTO": [
+    "Auto",
+    "ऑटो",
+    "ଅଟୋ"
+  ],
+  "collector.vehicle.MINI_TRUCK": [
+    "Mini truck",
+    "मिनी ट्रक",
+    "ମିନି ଟ୍ରକ"
+  ],
+  "collector.verification.VERIFIED": [
+    "✅ Verified",
+    "✅ सत्यापित",
+    "✅ ଯାଞ୍ଚ ହୋଇଛି"
+  ],
+  "collector.verification.PENDING": [
+    "⏳ Pending verification",
+    "⏳ सत्यापन बाक़ी",
+    "⏳ ଯାଞ୍ଚ ବାକି"
+  ],
+  "collector.verification.REJECTED": [
+    "Not approved",
+    "स्वीकृत नहीं",
+    "ଅନୁମୋଦିତ ନୁହେଁ"
+  ],
+  "collector.profile.title": [
+    "Profile",
+    "प्रोफ़ाइल",
+    "ପ୍ରୋଫାଇଲ"
+  ],
+  "collector.profile.rating": [
+    "Your rating",
+    "आपकी रेटिंग",
+    "ଆପଣଙ୍କ ରେଟିଂ"
+  ],
+  "collector.profile.ratingEmpty": [
+    "Households can rate you after each completed pickup.",
+    "हर पूरे पिकअप के बाद घर आपको रेटिंग दे सकते हैं।",
+    "ପ୍ରତ୍ୟେକ ସମ୍ପୂର୍ଣ୍ଣ ପିକଅପ ପରେ ଘରଗୁଡ଼ିକ ଆପଣଙ୍କୁ ରେଟିଂ ଦେଇପାରିବେ।"
+  ],
+  "collector.profile.business": [
+    "Business",
+    "व्यवसाय",
+    "ବ୍ୟବସାୟ"
+  ],
+  "collector.profile.centerName": [
+    "Center name",
+    "केंद्र का नाम",
+    "କେନ୍ଦ୍ରର ନାମ"
+  ],
+  "collector.profile.shopName": [
+    "Shop / business name",
+    "दुकान / व्यवसाय का नाम",
+    "ଦୋକାନ / ବ୍ୟବସାୟର ନାମ"
+  ],
+  "collector.profile.address": [
+    "Address",
+    "पता",
+    "ଠିକଣା"
+  ],
+  "collector.profile.vehicle": [
+    "Vehicle",
+    "वाहन",
+    "ଗାଡ଼ି"
+  ],
+  "collector.profile.vehicleCapacity": [
+    "Vehicle capacity (kg)",
+    "वाहन की क्षमता (किग्रा)",
+    "ଗାଡ଼ିର କ୍ଷମତା (କିଗ୍ରା)"
+  ],
+  "collector.profile.vehicleCapacityHint": [
+    "Leave empty to use the default for your vehicle type",
+    "अपने वाहन के प्रकार की सामान्य क्षमता के लिए खाली छोड़ें",
+    "ଆପଣଙ୍କ ଗାଡ଼ି ପ୍ରକାରର ସାଧାରଣ କ୍ଷମତା ପାଇଁ ଖାଲି ଛାଡ଼ନ୍ତୁ"
+  ],
+  "collector.profile.costPerKm": [
+    "Travel cost per km (₹)",
+    "प्रति किमी यात्रा ख़र्च (₹)",
+    "ପ୍ରତି କିମି ଯାତ୍ରା ଖର୍ଚ୍ଚ (₹)"
+  ],
+  "collector.profile.costPerKmHint": [
+    "Used to work out your profit on each pool",
+    "हर पूल पर आपका मुनाफ़ा निकालने में काम आता है",
+    "ପ୍ରତ୍ୟେକ ପୁଲରେ ଆପଣଙ୍କ ଲାଭ ବାହାର କରିବାରେ ବ୍ୟବହୃତ ହୁଏ"
+  ],
+  "collector.profile.workingHours": [
+    "Working hours",
+    "काम के घंटे",
+    "କାମର ସମୟ"
+  ],
+  "collector.profile.workingHoursPlaceholder": [
+    "e.g. 9 AM - 6 PM, Mon-Sat",
+    "जैसे सुबह 9 - शाम 6 बजे, सोम-शनि",
+    "ଯଥା ସକାଳ 9 - ସନ୍ଧ୍ୟା 6, ସୋମ-ଶନି"
+  ],
+  "collector.profile.accepting": [
+    "Accepting pickups",
+    "पिकअप स्वीकार करना",
+    "ପିକଅପ ଗ୍ରହଣ"
+  ],
+  "collector.profile.acceptingHint": [
+    "Turn off to pause. Households will not be matched to you.",
+    "रोकने के लिए बंद करें। घर आपसे नहीं जोड़े जाएँगे।",
+    "ବନ୍ଦ କରିବା ପାଇଁ ବନ୍ଦ କରନ୍ତୁ। ଘରଗୁଡ଼ିକ ଆପଣଙ୍କ ସହ ଯୋଡ଼ାଯିବ ନାହିଁ।"
+  ],
+  "collector.profile.tripRules": [
+    "Trip rules",
+    "यात्रा के नियम",
+    "ଯାତ୍ରା ନିୟମ"
+  ],
+  "collector.profile.radius": [
+    "How far will you travel (km)?",
+    "आप कितनी दूर तक जाएँगे (किमी)?",
+    "ଆପଣ କେତେ ଦୂର ଯିବେ (କିମି)?"
+  ],
+  "collector.profile.minProfit": [
+    "Minimum trip profit (₹)",
+    "न्यूनतम यात्रा मुनाफ़ा (₹)",
+    "ସର୍ବନିମ୍ନ ଯାତ୍ରା ଲାଭ (₹)"
+  ],
+  "collector.profile.minProfitHint": [
+    "Pools below this are not shown as ready",
+    "इससे कम वाले पूल तैयार नहीं दिखाए जाते",
+    "ଏହାଠାରୁ କମ୍ ପୁଲ ପ୍ରସ୍ତୁତ ଭାବେ ଦେଖାଯାଏ ନାହିଁ"
+  ],
+  "collector.profile.minLoad": [
+    "Minimum load per route (kg)",
+    "हर रास्ते पर न्यूनतम वज़न (किग्रा)",
+    "ପ୍ରତି ରୁଟରେ ସର୍ବନିମ୍ନ ଓଜନ (କିଗ୍ରା)"
+  ],
+  "collector.profile.dailyCapacity": [
+    "Daily capacity (kg)",
+    "रोज़ की क्षमता (किग्रा)",
+    "ଦୈନିକ କ୍ଷମତା (କିଗ୍ରା)"
+  ],
+  "collector.profile.rateCard": [
+    "Rate card (₹ per kg)",
+    "रेट कार्ड (₹ प्रति किग्रा)",
+    "ରେଟ କାର୍ଡ (₹ ପ୍ରତି କିଗ୍ରା)"
+  ],
+  "collector.profile.item": [
+    "Item",
+    "सामान",
+    "ସାମଗ୍ରୀ"
+  ],
+  "collector.profile.buy": [
+    "Buy",
+    "ख़रीद",
+    "କିଣା"
+  ],
+  "collector.profile.sell": [
+    "Sell",
+    "बिक्री",
+    "ବିକ୍ରି"
+  ],
+  "collector.profile.buyRateAria": [
+    "{{name}} buy rate",
+    "{{name}} ख़रीद दर",
+    "{{name}} କିଣା ଦର"
+  ],
+  "collector.profile.sellRateAria": [
+    "{{name}} sell rate",
+    "{{name}} बिक्री दर",
+    "{{name}} ବିକ୍ରି ଦର"
+  ],
+  "collector.profile.rateHelp": [
+    "Buy is what you pay households, sell is what you earn reselling. The app uses both to work out your profit. Leave an item empty and you will not collect it.",
+    "ख़रीद वह है जो आप घरों को देते हैं, बिक्री वह है जो आप दोबारा बेचकर कमाते हैं। ऐप दोनों से आपका मुनाफ़ा निकालता है। कोई सामान खाली छोड़ेंगे तो आप उसे इकट्ठा नहीं करेंगे।",
+    "କିଣା ହେଉଛି ଆପଣ ଘରଗୁଡ଼ିକୁ ଦେଉଥିବା ମୂଲ୍ୟ, ବିକ୍ରି ହେଉଛି ପୁନଃବିକ୍ରିରୁ ଆପଣଙ୍କ ଆୟ। ଆପ୍ ଦୁଇଟିକୁ ବ୍ୟବହାର କରି ଆପଣଙ୍କ ଲାଭ ବାହାର କରେ। କୌଣସି ସାମଗ୍ରୀ ଖାଲି ଛାଡ଼ିଲେ ଆପଣ ତାହା ସଂଗ୍ରହ କରିବେ ନାହିଁ।"
+  ],
+  "collector.profile.saved": [
+    "Saved",
+    "सहेजा गया",
+    "ସେଭ ହୋଇଛି"
+  ],
+  "collector.profile.saving": [
+    "Saving…",
+    "सहेजा जा रहा है…",
+    "ସେଭ ହେଉଛି…"
+  ],
+  "collector.profile.save": [
+    "Save",
+    "सहेजें",
+    "ସେଭ କରନ୍ତୁ"
+  ],
+  "collector.pool.outside": [
+    "Outside your area",
+    "आपके इलाक़े से बाहर",
+    "ଆପଣଙ୍କ ଅଞ୍ଚଳ ବାହାରେ"
+  ],
+  "collector.pool.outsideHint": [
+    "This pool is {{distance}} km away, but your service area is {{radius}} km. To take it, widen your service area in",
+    "यह पूल {{distance}} किमी दूर है, पर आपका सेवा क्षेत्र {{radius}} किमी है। इसे लेने के लिए अपना सेवा क्षेत्र यहाँ बढ़ाएँ:",
+    "ଏହି ପୁଲ {{distance}} କିମି ଦୂରରେ, କିନ୍ତୁ ଆପଣଙ୍କ ସେବା ଅଞ୍ଚଳ {{radius}} କିମି। ଏହାକୁ ନେବାକୁ ଆପଣଙ୍କ ସେବା ଅଞ୍ଚଳ ଏଠାରେ ବଢ଼ାନ୍ତୁ:"
+  ],
+  "collector.pool.noProfit": [
+    "No profit at your rates yet. It may become worth it when more households join.",
+    "आपके रेट पर अभी कोई मुनाफ़ा नहीं। और घर जुड़ने पर यह फ़ायदेमंद हो सकता है।",
+    "ଆପଣଙ୍କ ରେଟରେ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଲାଭ ନାହିଁ। ଅଧିକ ଘର ଯୋଗ ହେଲେ ଏହା ଲାଭଦାୟକ ହୋଇପାରେ।"
+  ],
+  "collector.pool.percentFull": [
+    "{{percent}}% full",
+    "{{percent}}% भरा",
+    "{{percent}}% ଭରିଛି"
+  ],
+  "collector.pool.needMore": [
+    "{{weight}} more needed",
+    "और {{weight}} चाहिए",
+    "ଆହୁରି {{weight}} ଦରକାର"
+  ],
+  "collector.pool.inside": [
+    "What is in this pool",
+    "इस पूल में क्या है",
+    "ଏହି ପୁଲରେ କ’ଣ ଅଛି"
+  ],
+  "collector.pool.yourRate": [
+    "you pay {{rate}}/kg",
+    "आपका दाम {{rate}}/किलो",
+    "ଆପଣଙ୍କ ଦର {{rate}}/କିଲୋ"
+  ],
+  "collector.pool.notBought": [
+    "not in your rate card",
+    "आपके रेट कार्ड में नहीं",
+    "ଆପଣଙ୍କ ରେଟ କାର୍ଡରେ ନାହିଁ"
+  ],
+  "collector.route.mapLabel": [
+    "Map of the pickup route",
+    "पिकअप के रास्ते का नक्शा",
+    "ପିକଅପ୍ ରାସ୍ତାର ମାନଚିତ୍ର"
+  ],
+  "collector.route.summary": [
+    "{{stops}} stops · about {{km}} km in a straight line, in the order shown on the map (🛺 is your place)",
+    "{{stops}} पड़ाव · सीधी रेखा में लगभग {{km}} किमी, नक्शे में दिखाए क्रम में (🛺 आपकी जगह है)",
+    "{{stops}} ଷ୍ଟପ୍ · ସିଧା ରେଖାରେ ପ୍ରାୟ {{km}} କିମି, ମାନଚିତ୍ରରେ ଦେଖାଯାଇଥିବା କ୍ରମରେ (🛺 ଆପଣଙ୍କ ସ୍ଥାନ)"
+  ],
+  "collector.stop.navigate": [
+    "Navigate",
+    "रास्ता दिखाएँ",
+    "ରାସ୍ତା ଦେଖାନ୍ତୁ"
+  ],
+  "collector.stop.fromYou": [
+    "{{km}} km from you",
+    "आपसे {{km}} किमी",
+    "ଆପଣଙ୍କଠାରୁ {{km}} କିମି"
+  ],
+  "collector.stop.fromPrevious": [
+    "{{km}} km from the previous stop",
+    "पिछले पड़ाव से {{km}} किमी",
+    "ପୂର୍ବ ଷ୍ଟପ୍ ଠାରୁ {{km}} କିମି"
+  ],
+  "route.navigateAll": [
+    "Navigate the whole route",
+    "पूरा रास्ता दिखाएँ",
+    "ସମ୍ପୂର୍ଣ୍ଣ ରାସ୍ତା ଦେଖାନ୍ତୁ"
+  ]
+}

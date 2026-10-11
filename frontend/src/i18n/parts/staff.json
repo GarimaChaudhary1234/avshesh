@@ -1,0 +1,107 @@
+{
+  "role.FIELD_STAFF": [
+    "Collection Worker",
+    "संग्रह कर्मचारी",
+    "ସଂଗ୍ରହ କର୍ମଚାରୀ"
+  ],
+  "city.headerStaff": [
+    "{{name}} · Collection Worker · {{ward}}",
+    "{{name}} · संग्रह कर्मचारी · {{ward}}",
+    "{{name}} · ସଂଗ୍ରହ କର୍ମଚାରୀ · {{ward}}"
+  ],
+  "nav.tasks": [
+    "My pickups",
+    "मेरे पिकअप",
+    "ମୋ ପିକଅପ୍"
+  ],
+  "staff.title": [
+    "My pickups",
+    "मेरे पिकअप",
+    "ମୋ ପିକଅପ୍"
+  ],
+  "staff.intro": [
+    "The pickups your ward officer assigned to you, soonest first.",
+    "आपके वार्ड अधिकारी ने आपको जो पिकअप सौंपे हैं, सबसे पहले वाले ऊपर।",
+    "ଆପଣଙ୍କ ୱାର୍ଡ ଅଧିକାରୀ ଆପଣଙ୍କୁ ଯେଉଁ ପିକଅପ୍ ଦେଇଛନ୍ତି, ସବୁଠୁ ଆଗରେ ଥିବା ଉପରେ।"
+  ],
+  "staff.empty": [
+    "No pickups are assigned to you right now.",
+    "अभी आपको कोई पिकअप नहीं सौंपा गया है।",
+    "ବର୍ତ୍ତମାନ ଆପଣଙ୍କୁ କୌଣସି ପିକଅପ୍ ଦିଆଯାଇନାହିଁ।"
+  ],
+  "staff.doneTitle": [
+    "Collected in the last 7 days",
+    "पिछले 7 दिनों में उठाया गया",
+    "ଗତ 7 ଦିନରେ ସଂଗୃହୀତ"
+  ],
+  "staff.collected": [
+    "Collected",
+    "उठा लिया",
+    "ସଂଗୃହୀତ"
+  ],
+  "staff.note": [
+    "Note from the household: {{note}}",
+    "घर की ओर से नोट: {{note}}",
+    "ଘରର ନୋଟ୍: {{note}}"
+  ],
+  "staff.openMap": [
+    "Open the place on the map",
+    "जगह को नक्शे पर खोलें",
+    "ସ୍ଥାନକୁ ମାନଚିତ୍ରରେ ଖୋଲନ୍ତୁ"
+  ],
+  "staff.markCollected": [
+    "Mark collected",
+    "उठा लिया चिह्नित करें",
+    "ସଂଗୃହୀତ ବୋଲି ଚିହ୍ନଟ କରନ୍ତୁ"
+  ],
+  "staff.couldNot": [
+    "Could not collect",
+    "उठा नहीं सका",
+    "ନେଇପାରିଲି ନାହିଁ"
+  ],
+  "staff.whatWentWrong": [
+    "What went wrong?",
+    "क्या गड़बड़ हुई?",
+    "କ’ଣ ଭୁଲ ହେଲା?"
+  ],
+  "staff.reasonPlaceholder": [
+    "For example: nobody was home",
+    "जैसे: घर पर कोई नहीं था",
+    "ଯେପରି: ଘରେ କେହି ନଥିଲେ"
+  ],
+  "staff.sendToOfficer": [
+    "Send back to the officer",
+    "अधिकारी को वापस भेजें",
+    "ଅଧିକାରୀଙ୍କୁ ଫେରାଇ ଦିଅନ୍ତୁ"
+  ],
+  "municipal.staff.password": [
+    "First password",
+    "पहला पासवर्ड",
+    "ପ୍ରଥମ ପାସୱାର୍ଡ"
+  ],
+  "municipal.staff.passwordHint": [
+    "At least 6 characters. The worker logs in with it; give it to them in person.",
+    "कम से कम 6 अक्षर। कर्मचारी इसी से लॉगिन करता है; इसे सीधे दें।",
+    "ଅତିକମରେ 6 ଅକ୍ଷର। କର୍ମଚାରୀ ଏଥିରେ ଲଗଇନ୍ କରନ୍ତି; ଏହାକୁ ସିଧା ଦିଅନ୍ତୁ।"
+  ],
+  "municipal.staff.hasLogin": [
+    "Has a login",
+    "लॉगिन है",
+    "ଲଗଇନ୍ ଅଛି"
+  ],
+  "municipal.staff.noLogin": [
+    "No login",
+    "लॉगिन नहीं",
+    "ଲଗଇନ୍ ନାହିଁ"
+  ],
+  "staff.mapLabel": [
+    "Map of the pickups assigned to you",
+    "आपको सौंपे गए पिकअप का नक्शा",
+    "ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ପିକଅପ୍ ର ମାନଚିତ୍ର"
+  ],
+  "staff.routeSummary": [
+    "{{stops}} pickups · about {{km}} km in a straight line, in a short round (earliest day first)",
+    "{{stops}} पिकअप · सीधी रेखा में लगभग {{km}} किमी, छोटे चक्कर में (पहले सबसे जल्दी वाला दिन)",
+    "{{stops}} ପିକଅପ୍ · ସିଧା ରେଖାରେ ପ୍ରାୟ {{km}} କିମି, ଛୋଟ ଚକ୍କରରେ (ପ୍ରଥମେ ସବୁଠୁ ଶୀଘ୍ର ଦିନ)"
+  ]
+}

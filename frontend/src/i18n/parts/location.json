@@ -1,0 +1,107 @@
+{
+  "location.pin": [
+    "Your home location",
+    "आपके घर की लोकेशन",
+    "ଆପଣଙ୍କ ଘରର ଲୋକେସନ୍"
+  ],
+  "location.search": [
+    "Search",
+    "खोजें",
+    "ଖୋଜନ୍ତୁ"
+  ],
+  "location.searchPlaceholder": [
+    "Search your area, e.g. Saheed Nagar",
+    "अपना इलाका खोजें, जैसे सहीद नगर",
+    "ଆପଣଙ୍କ ଅଞ୍ଚଳ ଖୋଜନ୍ତୁ, ଯେପରି ସହିଦ ନଗର"
+  ],
+  "location.noResults": [
+    "No place found. Try another name or move the pin on the map.",
+    "कोई जगह नहीं मिली। दूसरा नाम आज़माएँ या नक्शे पर पिन हिलाएँ।",
+    "କୌଣସି ସ୍ଥାନ ମିଳିଲା ନାହିଁ। ଅନ୍ୟ ନାମ ଚେଷ୍ଟା କରନ୍ତୁ କିମ୍ବା ମାନଚିତ୍ରରେ ପିନ୍ ସରାନ୍ତୁ।"
+  ],
+  "location.outside": [
+    "This spot is outside the wards we cover yet",
+    "यह जगह उन वार्डों के बाहर है जिन्हें हम अभी कवर करते हैं",
+    "ଏହି ସ୍ଥାନ ଆମେ ଏବେ ଯେଉଁ ୱାର୍ଡ ଆଚ୍ଛାଦନ କରୁଛୁ ତାହା ବାହାରେ"
+  ],
+  "location.help": [
+    "Tap the map or drag the pin to your home. Your ward is worked out from the pin.",
+    "नक्शे पर टैप करें या पिन को अपने घर तक खींचें। आपका वार्ड पिन से तय होता है।",
+    "ମାନଚିତ୍ରରେ ଟ୍ୟାପ୍ କରନ୍ତୁ କିମ୍ବା ପିନ୍ କୁ ଆପଣଙ୍କ ଘର ପର୍ଯ୍ୟନ୍ତ ଟାଣନ୍ତୁ। ପିନ୍ ରୁ ଆପଣଙ୍କ ୱାର୍ଡ ନିର୍ଣ୍ଣୟ ହୁଏ।"
+  ],
+  "location.accountTitle": [
+    "My account",
+    "मेरा खाता",
+    "ମୋ ଖାତା"
+  ],
+  "location.title": [
+    "Home location",
+    "घर की लोकेशन",
+    "ଘରର ଲୋକେସନ୍"
+  ],
+  "location.rules": [
+    "You can change it up to 3 times a day, and only when you have no open listing, pickup or request.",
+    "आप इसे दिन में 3 बार तक बदल सकते हैं, और तभी जब कोई लिस्टिंग, पिकअप या अनुरोध खुला न हो।",
+    "ଆପଣ ଏହାକୁ ଦିନକୁ 3 ଥର ପର୍ଯ୍ୟନ୍ତ ବଦଳାଇପାରିବେ, ଏବଂ କେବଳ ଯେତେବେଳେ କୌଣସି ତାଲିକା, ପିକଅପ୍ କିମ୍ବା ଅନୁରୋଧ ଖୋଲା ନଥିବ।"
+  ],
+  "location.fixedForOfficers": [
+    "The location of a municipal account is fixed by its ward.",
+    "नगर निगम खाते की लोकेशन उसके वार्ड से तय होती है।",
+    "ମ୍ୟୁନିସିପାଲ ଖାତାର ଲୋକେସନ୍ ଏହାର ୱାର୍ଡ ଦ୍ୱାରା ନିର୍ଦ୍ଧାରିତ।"
+  ],
+  "location.save": [
+    "Save location",
+    "लोकेशन सहेजें",
+    "ଲୋକେସନ୍ ସେଭ୍ କରନ୍ତୁ"
+  ],
+  "location.saved": [
+    "Location saved. Your ward has been updated.",
+    "लोकेशन सहेज ली गई। आपका वार्ड अपडेट हो गया है।",
+    "ଲୋକେସନ୍ ସେଭ୍ ହେଲା। ଆପଣଙ୍କ ୱାର୍ଡ ଅପଡେଟ୍ ହୋଇଗଲା।"
+  ],
+  "location.pickOnRegister": [
+    "Where do you live?",
+    "आप कहाँ रहते हैं?",
+    "ଆପଣ କେଉଁଠାରେ ରୁହନ୍ତି?"
+  ],
+  "location.gps.locating": [
+    "Finding your location…",
+    "आपकी लोकेशन खोजी जा रही है…",
+    "ଆପଣଙ୍କ ଲୋକେସନ୍ ଖୋଜାଯାଉଛି…"
+  ],
+  "location.gps.denied": [
+    "Location is blocked for this site. Allow it with the lock icon next to the address, then try again. Or search your area, or move the pin.",
+    "इस साइट के लिए लोकेशन बंद है। पते के पास ताले के आइकन से अनुमति दें और फिर कोशिश करें। या अपना इलाका खोजें, या पिन हिलाएँ।",
+    "ଏହି ସାଇଟ୍ ପାଇଁ ଲୋକେସନ୍ ବନ୍ଦ ଅଛି। ଠିକଣା ପାଖର ତାଲା ଆଇକନ୍ ରୁ ଅନୁମତି ଦିଅନ୍ତୁ ଏବଂ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। କିମ୍ବା ଆପଣଙ୍କ ଅଞ୍ଚଳ ଖୋଜନ୍ତୁ, ଅଥବା ପିନ୍ ସରାନ୍ତୁ।"
+  ],
+  "location.gps.unavailable": [
+    "Your device could not find its location. Turn on Location in the device settings, or search your area, or move the pin.",
+    "आपका डिवाइस अपनी लोकेशन नहीं खोज सका। डिवाइस सेटिंग में लोकेशन चालू करें, या अपना इलाका खोजें, या पिन हिलाएँ।",
+    "ଆପଣଙ୍କ ଡିଭାଇସ୍ ଏହାର ଲୋକେସନ୍ ଖୋଜିପାରିଲା ନାହିଁ। ଡିଭାଇସ୍ ସେଟିଂସରେ ଲୋକେସନ୍ ଚାଲୁ କରନ୍ତୁ, କିମ୍ବା ଆପଣଙ୍କ ଅଞ୍ଚଳ ଖୋଜନ୍ତୁ, ଅଥବା ପିନ୍ ସରାନ୍ତୁ।"
+  ],
+  "location.gps.timeout": [
+    "Finding your location took too long. Try again, or search your area, or move the pin.",
+    "आपकी लोकेशन खोजने में बहुत समय लगा। फिर कोशिश करें, या अपना इलाका खोजें, या पिन हिलाएँ।",
+    "ଆପଣଙ୍କ ଲୋକେସନ୍ ଖୋଜିବାକୁ ବହୁତ ସମୟ ଲାଗିଲା। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ, କିମ୍ବା ଆପଣଙ୍କ ଅଞ୍ଚଳ ଖୋଜନ୍ତୁ, ଅଥବା ପିନ୍ ସରାନ୍ତୁ।"
+  ],
+  "location.gps.insecure": [
+    "The browser only gives location on a secure (https) page. Search your area or move the pin instead.",
+    "ब्राउज़र केवल सुरक्षित (https) पेज पर लोकेशन देता है। इसके बजाय अपना इलाका खोजें या पिन हिलाएँ।",
+    "ବ୍ରାଉଜର୍ କେବଳ ସୁରକ୍ଷିତ (https) ପୃଷ୍ଠାରେ ଲୋକେସନ୍ ଦିଏ। ଏହା ବଦଳରେ ଆପଣଙ୍କ ଅଞ୍ଚଳ ଖୋଜନ୍ତୁ କିମ୍ବା ପିନ୍ ସରାନ୍ତୁ।"
+  ],
+  "location.goDemo": [
+    "Go to the demo area (Bhubaneswar)",
+    "डेमो इलाके (भुवनेश्वर) पर जाएँ",
+    "ଡେମୋ ଅଞ୍ଚଳ (ଭୁବନେଶ୍ୱର) କୁ ଯାଆନ୍ତୁ"
+  ],
+  "location.outsideBanner": [
+    "Your location is outside the wards we serve yet (Bhubaneswar), so no dealer or municipal pickup can reach you here. Set your location before you list waste.",
+    "आपकी लोकेशन उन वार्डों के बाहर है जहाँ हम अभी सेवा देते हैं (भुवनेश्वर), इसलिए यहाँ कोई डीलर या नगर निगम पिकअप नहीं आ सकता। कचरा लिस्ट करने से पहले अपनी लोकेशन सेट करें।",
+    "ଆପଣଙ୍କ ଲୋକେସନ୍ ଆମେ ଏବେ ସେବା ଦେଉଥିବା ୱାର୍ଡ (ଭୁବନେଶ୍ୱର) ବାହାରେ, ତେଣୁ ଏଠାକୁ କୌଣସି ଡିଲର୍ କିମ୍ବା ମ୍ୟୁନିସିପାଲ ପିକଅପ୍ ଆସିପାରିବ ନାହିଁ। ଅଳିଆ ତାଲିକାଭୁକ୍ତ କରିବା ପୂର୍ବରୁ ଆପଣଙ୍କ ଲୋକେସନ୍ ସେଟ୍ କରନ୍ତୁ।"
+  ],
+  "location.changeNow": [
+    "Set my location",
+    "मेरी लोकेशन सेट करें",
+    "ମୋ ଲୋକେସନ୍ ସେଟ୍ କରନ୍ତୁ"
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "nav.home": [
+    "Home",
+    "होम",
+    "ହୋମ"
+  ],
+  "nav.scan": [
+    "Scan",
+    "स्कैन",
+    "ସ୍କାନ"
+  ],
+  "nav.myListings": [
+    "My Listings",
+    "मेरी लिस्टिंग",
+    "ମୋ ତାଲିକା"
+  ],
+  "nav.impact": [
+    "Impact",
+    "प्रभाव",
+    "ପ୍ରଭାବ"
+  ],
+  "nav.pools": [
+    "Pools",
+    "पूल",
+    "ପୁଲ"
+  ],
+  "nav.pickups": [
+    "Pickups",
+    "पिकअप",
+    "ପିକଅପ"
+  ],
+  "nav.earnings": [
+    "Earnings",
+    "कमाई",
+    "ରୋଜଗାର"
+  ],
+  "nav.profile": [
+    "Profile",
+    "प्रोफ़ाइल",
+    "ପ୍ରୋଫାଇଲ"
+  ],
+  "nav.overview": [
+    "Overview",
+    "सारांश",
+    "ସାରାଂଶ"
+  ],
+  "nav.requests": [
+    "Requests",
+    "अनुरोध",
+    "ଅନୁରୋଧ"
+  ],
+  "nav.dropoffs": [
+    "Drop-offs",
+    "ड्रॉप-ऑफ़ केंद्र",
+    "ଡ୍ରପ୍-ଅଫ୍ କେନ୍ଦ୍ର"
+  ],
+  "nav.dealers": [
+    "Dealers",
+    "डीलर",
+    "ଡିଲର"
+  ],
+  "nav.staff": [
+    "Staff",
+    "कर्मचारी",
+    "କର୍ମଚାରୀ"
+  ],
+  "nav.logout": [
+    "Logout",
+    "लॉगआउट",
+    "ଲଗଆଉଟ୍"
+  ],
+  "nav.notifications": [
+    "Notifications",
+    "सूचनाएँ",
+    "ବିଜ୍ଞପ୍ତି"
+  ],
+  "auth.tagline": [
+    "Turn neighbourhood waste into income",
+    "मोहल्ले के कचरे को कमाई में बदलें",
+    "ମହଲାର ଅଳିଆକୁ ଆୟରେ ବଦଳାନ୍ତୁ"
+  ],
+  "auth.phone": [
+    "Phone number",
+    "फ़ोन नंबर",
+    "ଫୋନ୍ ନମ୍ବର"
+  ],
+  "auth.password": [
+    "Password",
+    "पासवर्ड",
+    "ପାସୱାର୍ଡ"
+  ],
+  "auth.wait": [
+    "Please wait…",
+    "कृपया प्रतीक्षा करें…",
+    "ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…"
+  ],
+  "auth.login": [
+    "Login",
+    "लॉगिन",
+    "ଲଗଇନ୍"
+  ],
+  "auth.newHere": [
+    "New here? ",
+    "नए हैं? ",
+    "ନୂଆ ଏଠାରେ? "
+  ],
+  "auth.createAccount": [
+    "Create an account",
+    "खाता बनाएँ",
+    "ଖାତା ଖୋଲନ୍ତୁ"
+  ],
+  "auth.forgot": [
+    "Forgot password?",
+    "पासवर्ड भूल गए?",
+    "ପାସୱାର୍ଡ ଭୁଲିଗଲେ?"
+  ],
+  "auth.demoTitle": [
+    "Demo accounts (local demo data)",
+    "डेमो खाते (स्थानीय डेमो डेटा)",
+    "ଡେମୋ ଖାତା (ସ୍ଥାନୀୟ ଡେମୋ ଡାଟା)"
+  ],
+  "auth.demoOfficer": [
+    "🏛️ Ward Officer",
+    "🏛️ वार्ड अधिकारी",
+    "🏛️ ୱାର୍ଡ ଅଧିକାରୀ"
+  ],
+  "auth.demoCommissioner": [
+    "🏛️ Commissioner",
+    "🏛️ आयुक्त",
+    "🏛️ କମିଶନର"
+  ],
+  "auth.demoCompost": [
+    "🌱 Compost",
+    "🌱 कंपोस्ट",
+    "🌱 କମ୍ପୋଷ୍ଟ"
+  ],
+  "auth.viewImpact": [
+    "📊 View the public impact dashboard",
+    "📊 सार्वजनिक प्रभाव डैशबोर्ड देखें",
+    "📊 ସାର୍ବଜନୀନ ପ୍ରଭାବ ଡ୍ୟାସବୋର୍ଡ ଦେଖନ୍ତୁ"
+  ],
+  "auth.join": [
+    "Join Avshesh",
+    "अवशेष से जुड़ें",
+    "ଅବଶେଷ ସହ ଯୋଗ ଦିଅନ୍ତୁ"
+  ],
+  "auth.name": [
+    "Name",
+    "नाम",
+    "ନାମ"
+  ],
+  "auth.tenDigits": [
+    "10 digits",
+    "10 अंक",
+    "10 ଅଙ୍କ"
+  ],
+  "auth.min6": [
+    "At least 6 characters",
+    "कम से कम 6 अक्षर",
+    "ଅତିକମ୍ ରେ 6 ଅକ୍ଷର"
+  ],
+  "auth.locationUsed": [
+    "Your location will be used",
+    "आपकी लोकेशन का उपयोग होगा",
+    "ଆପଣଙ୍କ ଲୋକେସନ୍ ବ୍ୟବହାର ହେବ"
+  ],
+  "auth.locationDemo": [
+    "The demo neighbourhood (Ward 15, Bhubaneswar) will be used",
+    "डेमो मोहल्ला (वार्ड 15, भुवनेश्वर) इस्तेमाल होगा",
+    "ଡେମୋ ମହଲା (ୱାର୍ଡ 15, ଭୁବନେଶ୍ୱର) ବ୍ୟବହାର ହେବ"
+  ],
+  "auth.useLocation": [
+    "Use my location",
+    "मेरी लोकेशन इस्तेमाल करें",
+    "ମୋ ଲୋକେସନ୍ ବ୍ୟବହାର କରନ୍ତୁ"
+  ],
+  "auth.locationFailed": [
+    "Could not get your location. The demo neighbourhood will be used.",
+    "आपकी लोकेशन नहीं मिल सकी। डेमो मोहल्ला इस्तेमाल होगा।",
+    "ଆପଣଙ୍କ ଲୋକେସନ୍ ମିଳିଲା ନାହିଁ। ଡେମୋ ମହଲା ବ୍ୟବହାର ହେବ।"
+  ],
+  "auth.register": [
+    "Register",
+    "रजिस्टर करें",
+    "ପଞ୍ଜିକରଣ କରନ୍ତୁ"
+  ],
+  "auth.haveAccount": [
+    "Already have an account? ",
+    "पहले से खाता है? ",
+    "ପୂର୍ବରୁ ଖାତା ଅଛି? "
+  ],
+  "common.loading": [
+    "Loading…",
+    "लोड हो रहा है…",
+    "ଲୋଡ୍ ହେଉଛି…"
+  ],
+  "verify.title": [
+    "Verify your phone number",
+    "अपना फ़ोन नंबर सत्यापित करें",
+    "ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ"
+  ],
+  "verify.why": [
+    "We send a 6-digit code by SMS to {{phone}}. You need a verified phone to list waste, scan photos, accept pickups and rate dealers.",
+    "हम {{phone}} पर SMS से 6 अंकों का कोड भेजते हैं। कचरा लिस्ट करने, फ़ोटो स्कैन करने, पिकअप स्वीकार करने और डीलर को रेटिंग देने के लिए सत्यापित फ़ोन ज़रूरी है।",
+    "ଆମେ {{phone}} କୁ SMS ଦ୍ୱାରା 6 ଅଙ୍କର କୋଡ୍ ପଠାଉ। ଅଳିଆ ତାଲିକାଭୁକ୍ତ କରିବା, ଫଟୋ ସ୍କାନ୍, ପିକଅପ୍ ଗ୍ରହଣ ଏବଂ ଡିଲରଙ୍କୁ ରେଟିଂ ଦେବା ପାଇଁ ଯାଞ୍ଚ ହୋଇଥିବା ଫୋନ୍ ଦରକାର।"
+  ],
+  "verify.send": [
+    "Send code",
+    "कोड भेजें",
+    "କୋଡ୍ ପଠାନ୍ତୁ"
+  ],
+  "verify.resend": [
+    "Send a new code",
+    "नया कोड भेजें",
+    "ନୂଆ କୋଡ୍ ପଠାନ୍ତୁ"
+  ],
+  "verify.sent": [
+    "Code sent. It is valid for 10 minutes.",
+    "कोड भेज दिया गया है। यह 10 मिनट तक मान्य है।",
+    "କୋଡ୍ ପଠାଗଲା। ଏହା 10 ମିନିଟ୍ ପାଇଁ ବୈଧ।"
+  ],
+  "verify.devCode": [
+    "Local test mode: no SMS is sent. Your code is {{code}}.",
+    "लोकल टेस्ट मोड: कोई SMS नहीं भेजा जाता। आपका कोड {{code}} है।",
+    "ଲୋକାଲ୍ ଟେଷ୍ଟ ମୋଡ୍: କୌଣସି SMS ପଠାଯାଏ ନାହିଁ। ଆପଣଙ୍କ କୋଡ୍ {{code}}।"
+  ],
+  "verify.code": [
+    "6-digit code",
+    "6 अंकों का कोड",
+    "6 ଅଙ୍କର କୋଡ୍"
+  ],
+  "verify.confirm": [
+    "Verify",
+    "सत्यापित करें",
+    "ଯାଞ୍ଚ କରନ୍ତୁ"
+  ],
+  "verify.done": [
+    "Your phone number is verified.",
+    "आपका फ़ोन नंबर सत्यापित हो गया है।",
+    "ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବର ଯାଞ୍ଚ ହୋଇଗଲା।"
+  ],
+  "verify.continue": [
+    "Continue",
+    "आगे बढ़ें",
+    "ଆଗକୁ ବଢ଼ନ୍ତୁ"
+  ],
+  "verify.banner": [
+    "Verify your phone number to continue",
+    "आगे बढ़ने के लिए अपना फ़ोन नंबर सत्यापित करें",
+    "ଆଗକୁ ବଢ଼ିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ"
+  ],
+  "verify.bannerAction": [
+    "Verify now",
+    "अभी सत्यापित करें",
+    "ବର୍ତ୍ତମାନ ଯାଞ୍ଚ କରନ୍ତୁ"
+  ],
+  "forgot.title": [
+    "Reset your password",
+    "पासवर्ड रीसेट करें",
+    "ପାସୱାର୍ଡ ରିସେଟ୍ କରନ୍ତୁ"
+  ],
+  "forgot.intro": [
+    "Enter your phone number. If an account exists, we send a code by SMS.",
+    "अपना फ़ोन नंबर दर्ज करें। यदि खाता है, तो हम SMS से कोड भेजेंगे।",
+    "ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବର ଦିଅନ୍ତୁ। ଖାତା ଥିଲେ ଆମେ SMS ଦ୍ୱାରା କୋଡ୍ ପଠାଇବୁ।"
+  ],
+  "forgot.sendCode": [
+    "Send code",
+    "कोड भेजें",
+    "କୋଡ୍ ପଠାନ୍ତୁ"
+  ],
+  "forgot.sent": [
+    "If that number has an account, a code was sent.",
+    "यदि उस नंबर पर खाता है, तो कोड भेज दिया गया है।",
+    "ସେହି ନମ୍ବରରେ ଖାତା ଥିଲେ କୋଡ୍ ପଠାଯାଇଛି।"
+  ],
+  "forgot.newPassword": [
+    "New password",
+    "नया पासवर्ड",
+    "ନୂଆ ପାସୱାର୍ଡ"
+  ],
+  "forgot.reset": [
+    "Set new password",
+    "नया पासवर्ड सेट करें",
+    "ନୂଆ ପାସୱାର୍ଡ ସେଟ୍ କରନ୍ତୁ"
+  ],
+  "forgot.done": [
+    "Password changed. You can log in now.",
+    "पासवर्ड बदल गया है। अब आप लॉगिन कर सकते हैं।",
+    "ପାସୱାର୍ଡ ବଦଳିଗଲା। ଏବେ ଆପଣ ଲଗଇନ୍ କରିପାରିବେ।"
+  ],
+  "forgot.back": [
+    "Back to login",
+    "लॉगिन पर वापस जाएँ",
+    "ଲଗଇନ୍ କୁ ଫେରନ୍ତୁ"
+  ],
+  "notif.title": [
+    "Notifications",
+    "सूचनाएँ",
+    "ବିଜ୍ଞପ୍ତି"
+  ],
+  "notif.empty": [
+    "No notifications yet",
+    "अभी कोई सूचना नहीं",
+    "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ବିଜ୍ଞପ୍ତି ନାହିଁ"
+  ],
+  "notif.markRead": [
+    "Mark all as read",
+    "सभी को पढ़ा हुआ मानें",
+    "ସବୁକୁ ପଢ଼ାଯାଇଛି ବୋଲି ଚିହ୍ନଟ କରନ୍ତୁ"
+  ],
+  "notif.unread": [
+    "{{count}} unread",
+    "{{count}} अपठित",
+    "{{count}} ଅପଠିତ"
+  ],
+  "offline.banner": [
+    "You are offline. Changes that need the internet will wait.",
+    "आप ऑफ़लाइन हैं। इंटरनेट वाले काम बाद में होंगे।",
+    "ଆପଣ ଅଫଲାଇନ୍ ଅଛନ୍ତି। ଇଣ୍ଟରନେଟ ଦରକାର କାମ ପରେ ହେବ।"
+  ],
+  "offline.queued": [
+    "{{count}} listing(s) saved on this phone, waiting to be sent",
+    "{{count}} लिस्टिंग इस फ़ोन में सहेजी गई हैं, भेजे जाने की प्रतीक्षा में",
+    "{{count}} ତାଲିକା ଏହି ଫୋନ୍ ରେ ସେଭ୍ ହୋଇଛି, ପଠାଯିବା ଅପେକ୍ଷାରେ"
+  ],
+  "offline.sending": [
+    "Sending saved listings…",
+    "सहेजी गई लिस्टिंग भेजी जा रही हैं…",
+    "ସେଭ୍ ହୋଇଥିବା ତାଲିକା ପଠାଯାଉଛି…"
+  ],
+  "offline.sent": [
+    "{{count}} saved listing(s) sent",
+    "{{count}} सहेजी गई लिस्टिंग भेज दी गईं",
+    "{{count}} ସେଭ୍ ହୋଇଥିବା ତାଲିକା ପଠାଗଲା"
+  ],
+  "offline.failed": [
+    "{{count}} saved listing(s) could not be sent and were dropped",
+    "{{count}} सहेजी गई लिस्टिंग नहीं भेजी जा सकीं और हटा दी गईं",
+    "{{count}} ସେଭ୍ ହୋଇଥିବା ତାଲିକା ପଠାଯାଇପାରିଲା ନାହିଁ ଏବଂ ହଟାଯାଇଛି"
+  ],
+  "offline.install": [
+    "Install the app",
+    "ऐप इंस्टॉल करें",
+    "ଆପ୍ ଇନଷ୍ଟଲ୍ କରନ୍ତୁ"
+  ],
+  "auth.demoHierarchy": [
+    "Every ward has its own Ward Officer, who handles the waste pickup requests of that ward and gives them to the ward's Collection Workers. The Commissioner sees all wards and creates and manages the ward officers. The demo Ward Officer and Collection Worker belong to Ward 15.",
+    "हर वार्ड का अपना वार्ड अधिकारी होता है, जो उस वार्ड के कचरा पिकअप अनुरोध संभालता है और उन्हें वार्ड के संग्रह कर्मचारियों को सौंपता है। आयुक्त सभी वार्ड देखते हैं और वार्ड अधिकारियों को बनाते और संभालते हैं। डेमो वार्ड अधिकारी और संग्रह कर्मचारी वार्ड 15 के हैं।",
+    "ପ୍ରତ୍ୟେକ ୱାର୍ଡର ନିଜର ୱାର୍ଡ ଅଧିକାରୀ ଅଛନ୍ତି, ଯିଏ ସେହି ୱାର୍ଡର ଅଳିଆ ପିକଅପ୍ ଅନୁରୋଧ ସମ୍ଭାଳନ୍ତି ଏବଂ ସେଗୁଡ଼ିକୁ ୱାର୍ଡର ସଂଗ୍ରହ କର୍ମଚାରୀଙ୍କୁ ଦିଅନ୍ତି। କମିଶନର ସମସ୍ତ ୱାର୍ଡ ଦେଖନ୍ତି ଏବଂ ୱାର୍ଡ ଅଧିକାରୀଙ୍କୁ ସୃଷ୍ଟି ଓ ପରିଚାଳନା କରନ୍ତି। ଡେମୋ ୱାର୍ଡ ଅଧିକାରୀ ଓ ସଂଗ୍ରହ କର୍ମଚାରୀ ୱାର୍ଡ 15 ର।"
+  ],
+  "auth.demoStaff": [
+    "🧹 Collection Worker",
+    "🧹 संग्रह कर्मचारी",
+    "🧹 ସଂଗ୍ରହ କର୍ମଚାରୀ"
+  ]
+}

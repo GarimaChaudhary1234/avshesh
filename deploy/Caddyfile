@@ -1,0 +1,6 @@
+# Caddy gets and renews the HTTPS certificate by itself for the name in DOMAIN (a real domain, or <ip>.sslip.io).
+{$DOMAIN} {
+	encode gzip
+	header Strict-Transport-Security "max-age=31536000"
+	reverse_proxy frontend:80
+}
